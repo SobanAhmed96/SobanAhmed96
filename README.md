@@ -1,12 +1,18 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=220&section=header&text=Soban%20Ahmed&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=MERN%20Stack%20Developer%20%7C%20Frontend%20Developer&descAlignY=60&descSize=20" width="100%" alt="header" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=230&section=header&text=Soban%20Ahmed&fontSize=62&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=MERN%20Stack%20Developer%20%7C%20Frontend%20Developer&descAlignY=60&descSize=20" width="100%" alt="header"/>
 
 <a href="https://github.com/SobanAhmed96">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&width=720&lines=Hi%2C+I'm+Soban+Ahmed+%F0%9F%91%8B;MERN+Stack+Developer+from+Karachi%2C+Pakistan;Frontend+Developer+%40+Airtech+Solutions;Building+FoodlyOS+%E2%80%94+Multi-Role+Food+Delivery;React+%7C+Angular+%7C+Node.js+%7C+MongoDB" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&width=760&lines=Hi%2C+I'm+Soban+Ahmed+%F0%9F%91%8B;MERN+Stack+Developer+from+Karachi%2C+Pakistan;Frontend+Developer+%40+Airtech+Solutions;Building+FoodlyOS+%E2%80%94+Multi-Role+Food+Delivery;React+%7C+Angular+%7C+Node.js+%7C+MongoDB" alt="Typing SVG"/>
 </a>
 
-<br/>
+<br/><br/>
+
+<img src="https://img.shields.io/badge/Open%20to-Opportunities-00D9FF?style=for-the-badge&logo=rocket&logoColor=white" alt="open"/>
+<img src="https://img.shields.io/badge/Based%20in-Karachi%2C%20Pakistan-2c5364?style=for-the-badge&logo=googlemaps&logoColor=white" alt="location"/>
+<img src="https://img.shields.io/badge/Working%20at-Airtech%20Solutions-203a43?style=for-the-badge&logo=briefcase&logoColor=white" alt="work"/>
+
+<br/><br/>
 
 <a href="https://www.linkedin.com/in/soban-ahmed-b50b30316/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
 <a href="mailto:sobanahmed9898@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
@@ -15,8 +21,8 @@
 <br/><br/>
 
 <img src="https://komarev.com/ghpvc/?username=SobanAhmed96&label=Profile%20Views&color=2c5364&style=for-the-badge" alt="views"/>
-<img src="https://img.shields.io/github/followers/SobanAhmed96?label=Followers&style=for-the-badge&logo=github&color=203a43" alt="followers"/>
-<img src="https://img.shields.io/github/stars/SobanAhmed96?label=Stars&style=for-the-badge&logo=github&color=0f2027" alt="stars"/>
+<img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2FSobanAhmed96&query=%24.public_repos&label=Public%20Repos&style=for-the-badge&logo=github&color=203a43" alt="repos"/>
+<img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2FSobanAhmed96&query=%24.followers&label=Followers&style=for-the-badge&logo=github&color=0f2027" alt="followers"/>
 
 </div>
 
@@ -37,11 +43,20 @@ const soban = {
 };
 ```
 
-- 💻 Building complete web apps, **from the database to the user interface**
-- 🎨 Turning Figma designs into clean, responsive interfaces
-- 🧾 Hands-on with **ERP, POS, KDS, Kiosk & Self-Checkout** systems and printer integration
-- 🤖 Using AI tools (Claude, ChatGPT, Copilot, Claude Code) to speed up development and debugging
-- 🎓 Planning to pursue university studies in Computer Science
+<table>
+<tr>
+<td>💻 Building complete web apps, <b>from database to user interface</b></td>
+<td>🎨 Turning Figma designs into clean, responsive UIs</td>
+</tr>
+<tr>
+<td>🧾 ERP, POS, KDS, Kiosk & Self-Checkout systems</td>
+<td>🖨️ Printer integration for receipts, invoices & reports</td>
+</tr>
+<tr>
+<td>🤖 AI-assisted development (Claude, ChatGPT, Copilot, Claude Code)</td>
+<td>🎓 Planning university studies in Computer Science</td>
+</tr>
+</table>
 
 ---
 
@@ -64,7 +79,7 @@ const soban = {
 </div>
 
 <details>
-<summary><b>📚 Full skill breakdown</b></summary>
+<summary><b>📚 Full skill breakdown (click to expand)</b></summary>
 <br/>
 
 | Area | Skills |
@@ -141,6 +156,16 @@ const soban = {
 </tr>
 </table>
 
+### 🏗️ FoodlyOS Architecture
+
+```mermaid
+flowchart LR
+    A["👑 Super Admin Panel"] --> API
+    B["🏪 Restaurant Admin Panel"] --> API
+    C["🛒 Customer Website"] --> API
+    API["⚙️ Node.js + Express REST API<br/>JWT Auth · Role-Based Access"] --> DB[("🍃 MongoDB<br/>Mongoose Models")]
+```
+
 ---
 
 ## 💼 Experience
@@ -160,10 +185,16 @@ const soban = {
    └── Git/GitHub collaboration with backend devs, designers & QA
 ```
 
-## 🎓 Courses & Training
+## 🛣️ My Journey
 
-- 📱 **Flutter Development**: Jul 2025 - Dec 2025
-- 🌐 **Web & Mobile Frontend Development**: Oct 2023 - Feb 2024
+```mermaid
+timeline
+    title Learning to Building
+    2023-2024 : Web and Mobile Frontend Development course
+    2025 : Flutter Development course
+    Dec 2025 : Joined Airtech Solutions as Frontend Developer
+    Now : Building FoodlyOS and growing as a MERN developer
+```
 
 ---
 
@@ -175,25 +206,35 @@ const soban = {
 
 <br/><br/>
 
+<img src="https://ghchart.rshah.org/00d9ff/SobanAhmed96" alt="contribution graph" width="90%"/>
+
+</div>
+
+<!--
+=====================================================================
+OPTIONAL (enable ONLY after both workflows show a green tick in the
+Actions tab). Delete this line and the closing line below to enable.
+=====================================================================
+
+<div align="center">
+
 <img src="./profile-summary-card-output/tokyonight/3-stats.svg" alt="stats" width="48%"/>
 <img src="./profile-summary-card-output/tokyonight/2-most-commit-language.svg" alt="most commit language" width="48%"/>
-
 <img src="./profile-summary-card-output/tokyonight/1-repos-per-language.svg" alt="repos per language" width="48%"/>
 <img src="./profile-summary-card-output/tokyonight/4-productive-time.svg" alt="productive time" width="48%"/>
 
+<br/><br/>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SobanAhmed96/SobanAhmed96/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/SobanAhmed96/SobanAhmed96/output/github-snake.svg" />
+  <img alt="snake" src="https://raw.githubusercontent.com/SobanAhmed96/SobanAhmed96/output/github-snake-dark.svg" />
+</picture>
+
 </div>
 
----
-
-## 🐍 Contribution Snake
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SobanAhmed96/SobanAhmed96/output/github-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/SobanAhmed96/SobanAhmed96/output/github-snake.svg" />
-    <img alt="snake" src="https://raw.githubusercontent.com/SobanAhmed96/SobanAhmed96/output/github-snake-dark.svg" />
-  </picture>
-</div>
+=====================================================================
+-->
 
 ---
 
