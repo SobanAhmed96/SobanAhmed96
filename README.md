@@ -1,7 +1,8 @@
 <a name="top"></a>
 <div align="center">
 
-<img src="./assets/banner.svg" width="100%" alt="Soban Ahmed - MERN Stack Developer"/>
+<h1>👋 Soban Ahmed</h1>
+<h3>MERN Stack Developer &nbsp;|&nbsp; Frontend Developer</h3>
 
 <a href="https://github.com/SobanAhmed96">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&width=760&lines=Hi%2C+I'm+Soban+Ahmed+%F0%9F%91%8B;MERN+Stack+Developer+from+Karachi%2C+Pakistan;Frontend+Developer+%40+Airtech+Solutions;Building+FoodlyOS+%E2%80%94+Multi-Role+Food+Delivery;React+%7C+Angular+%7C+Node.js+%7C+MongoDB" alt="Typing SVG"/>
@@ -31,14 +32,24 @@
 
 </div>
 
-<img src="./assets/divider.svg" width="100%" alt="divider"/>
+---
 
 <a name="about"></a>
 ## 👨‍💻 About Me
 
-<div align="center">
-  <img src="./assets/terminal.svg" width="820" alt="terminal intro"/>
-</div>
+```bash
+soban@karachi:~$ whoami
+Soban Ahmed
+
+soban@karachi:~$ cat role.txt
+MERN Stack Developer | Frontend Developer @ Airtech Solutions
+
+soban@karachi:~$ ls skills/
+react/  angular/  node/  express/  mongodb/  flutter/
+
+soban@karachi:~$ echo $STATUS
+Building FoodlyOS... open to opportunities 🚀
+```
 
 ```js
 const soban = {
@@ -78,7 +89,7 @@ const soban = {
 |---|---|---|
 | FoodlyOS, a full MERN food delivery product | Full-stack skills, clean architecture & reusable components | University studies in Computer Science |
 
-<img src="./assets/divider.svg" width="100%" alt="divider"/>
+---
 
 <a name="skills"></a>
 ## 🧰 Tech Stack
@@ -151,7 +162,7 @@ mindmap
 
 </details>
 
-<img src="./assets/divider.svg" width="100%" alt="divider"/>
+---
 
 <a name="projects"></a>
 ## 🌟 Featured Projects
@@ -234,7 +245,7 @@ flowchart LR
     E --> F["🚀 Deliver"]
 ```
 
-<img src="./assets/divider.svg" width="100%" alt="divider"/>
+---
 
 <a name="experience"></a>
 ## 💼 Experience
@@ -265,7 +276,7 @@ timeline
     Now : Building FoodlyOS and growing as a MERN developer
 ```
 
-<img src="./assets/divider.svg" width="100%" alt="divider"/>
+---
 
 <a name="services"></a>
 ## 🤝 What I Can Build For You
@@ -287,7 +298,7 @@ timeline
 
 </div>
 
-<img src="./assets/divider.svg" width="100%" alt="divider"/>
+---
 
 <a name="stats"></a>
 ## 📊 GitHub Stats
@@ -328,7 +339,7 @@ Actions tab). Delete this line and the closing line below to enable.
 =====================================================================
 -->
 
-<img src="./assets/divider.svg" width="100%" alt="divider"/>
+---
 
 <a name="contact"></a>
 ## 📬 Let's Connect
@@ -349,5 +360,3 @@ Actions tab). Delete this line and the closing line below to enable.
 <a href="#top">⬆️ Back to top</a>
 
 </div>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,50:203a43,100:0f2027&height=120&section=footer" width="100%" alt="footer"/>
