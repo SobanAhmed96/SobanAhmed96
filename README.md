@@ -1,3 +1,4 @@
+<a name="top"></a>
 <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=230&section=header&text=Soban%20Ahmed&fontSize=62&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=MERN%20Stack%20Developer%20%7C%20Frontend%20Developer&descAlignY=60&descSize=20" width="100%" alt="header"/>
@@ -24,10 +25,15 @@
 <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2FSobanAhmed96&query=%24.public_repos&label=Public%20Repos&style=for-the-badge&logo=github&color=203a43" alt="repos"/>
 <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2FSobanAhmed96&query=%24.followers&label=Followers&style=for-the-badge&logo=github&color=0f2027" alt="followers"/>
 
+<br/><br/>
+
+**[About](#about) · [Skills](#skills) · [Projects](#projects) · [Experience](#experience) · [Services](#services) · [Stats](#stats) · [Contact](#contact)**
+
 </div>
 
----
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:00d9ff,100:2c5364&height=3" width="100%" alt="divider"/>
 
+<a name="about"></a>
 ## 👨‍💻 About Me
 
 ```js
@@ -45,21 +51,32 @@ const soban = {
 
 <table>
 <tr>
-<td>💻 Building complete web apps, <b>from database to user interface</b></td>
-<td>🎨 Turning Figma designs into clean, responsive UIs</td>
+<td width="50%">💻 Building complete web apps, <b>from database to user interface</b></td>
+<td width="50%">🎨 Turning Figma designs into clean, responsive UIs</td>
 </tr>
 <tr>
 <td>🧾 ERP, POS, KDS, Kiosk & Self-Checkout systems</td>
 <td>🖨️ Printer integration for receipts, invoices & reports</td>
 </tr>
 <tr>
-<td>🤖 AI-assisted development (Claude, ChatGPT, Copilot, Claude Code)</td>
+<td>🔐 REST APIs, JWT authentication & role-based access</td>
+<td>📱 Flutter features, bug fixes & Android testing</td>
+</tr>
+<tr>
+<td>🤖 AI-assisted development to build and debug faster</td>
 <td>🎓 Planning university studies in Computer Science</td>
 </tr>
 </table>
 
+### 🎯 Current Focus
+
+| 🔭 Working on | 🌱 Improving | 🎓 Next goal |
+|---|---|---|
+| FoodlyOS, a full MERN food delivery product | Full-stack skills, clean architecture & reusable components | University studies in Computer Science |
+
 ---
 
+<a name="skills"></a>
 ## 🧰 Tech Stack
 
 <div align="center">
@@ -76,7 +93,42 @@ const soban = {
 **Tools**<br/>
 <img src="https://skillicons.dev/icons?i=git,github,postman,vscode&theme=dark" alt="tools"/>
 
+**AI Tools I Work With**<br/>
+<img src="https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logo=claude&logoColor=white" alt="Claude"/>
+<img src="https://img.shields.io/badge/ChatGPT-10A37F?style=for-the-badge&logo=openai&logoColor=white" alt="ChatGPT"/>
+<img src="https://img.shields.io/badge/Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white" alt="Gemini"/>
+<img src="https://img.shields.io/badge/GitHub%20Copilot-000000?style=for-the-badge&logo=githubcopilot&logoColor=white" alt="Copilot"/>
+
 </div>
+
+### 🧠 Skill Map
+
+```mermaid
+mindmap
+  root((Soban Ahmed))
+    Frontend
+      React.js and Hooks
+      Angular
+      Responsive Design
+      Figma to Code
+      Forms and Validation
+    Backend
+      Node.js
+      Express.js
+      REST APIs
+      JWT and Role Based Access
+    Database
+      MongoDB
+      Mongoose
+    Mobile
+      Flutter
+      Android Studio
+    Business Systems
+      ERP
+      POS
+      KDS and Kiosk
+      Printer Integration
+```
 
 <details>
 <summary><b>📚 Full skill breakdown (click to expand)</b></summary>
@@ -97,6 +149,7 @@ const soban = {
 
 ---
 
+<a name="projects"></a>
 ## 🌟 Featured Projects
 
 <table>
@@ -166,8 +219,20 @@ flowchart LR
     API["⚙️ Node.js + Express REST API<br/>JWT Auth · Role-Based Access"] --> DB[("🍃 MongoDB<br/>Mongoose Models")]
 ```
 
+### 🔄 How I Build
+
+```mermaid
+flowchart LR
+    A["🎨 Figma / UI Design"] --> B["🧩 Plan Pages & Components"]
+    B --> C["⚛️ Build Reusable UI"]
+    C --> D["🔌 Integrate REST APIs"]
+    D --> E["🧪 Test & Debug"]
+    E --> F["🚀 Deliver"]
+```
+
 ---
 
+<a name="experience"></a>
 ## 💼 Experience
 
 ```text
@@ -185,7 +250,7 @@ flowchart LR
    └── Git/GitHub collaboration with backend devs, designers & QA
 ```
 
-## 🛣️ My Journey
+### 🛣️ My Journey
 
 ```mermaid
 timeline
@@ -198,6 +263,29 @@ timeline
 
 ---
 
+<a name="services"></a>
+## 🤝 What I Can Build For You
+
+<table>
+<tr>
+<td align="center" width="25%">🌐<br/><b>Web Apps</b><br/><sub>React.js & Angular applications built from scratch</sub></td>
+<td align="center" width="25%">📊<br/><b>Admin Panels</b><br/><sub>Dashboards, ERP screens & business workflows</sub></td>
+<td align="center" width="25%">🧾<br/><b>POS / KDS / Kiosk</b><br/><sub>Order, billing, checkout & receipt printing UIs</sub></td>
+<td align="center" width="25%">⚙️<br/><b>MERN Products</b><br/><sub>Full-stack apps with REST APIs, JWT & role-based access</sub></td>
+</tr>
+</table>
+
+<div align="center">
+
+<a href="mailto:sobanahmed9898@gmail.com?subject=Project%20Inquiry">
+  <img src="https://img.shields.io/badge/%F0%9F%93%A9%20Let's%20Work%20Together-00D9FF?style=for-the-badge&labelColor=0f2027" alt="Hire me"/>
+</a>
+
+</div>
+
+---
+
+<a name="stats"></a>
 ## 📊 GitHub Stats
 
 <div align="center">
@@ -238,7 +326,8 @@ Actions tab). Delete this line and the closing line below to enable.
 
 ---
 
-## 🤝 Let's Connect
+<a name="contact"></a>
+## 📬 Let's Connect
 
 <div align="center">
 
@@ -251,7 +340,9 @@ Actions tab). Delete this line and the closing line below to enable.
 
 **💡 Open to collaboration, freelance projects & new opportunities!**
 
-⭐ *Thanks for visiting my profile!* ⭐
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=4000&pause=1000&color=00D9FF&center=true&vCenter=true&width=600&lines=Thanks+for+visiting+my+profile!;Let's+build+something+great+together+%F0%9F%9A%80" alt="footer typing"/>
+
+<a href="#top">⬆️ Back to top</a>
 
 </div>
 
