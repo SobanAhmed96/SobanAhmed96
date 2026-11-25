@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="250" viewBox="0 0 880 250" role="img" aria-label="Frontend, Backend, Business Systems and Mobile capabilities">
+  <rect width="880" height="250" fill="#0B0C0F"/>
+  <g font-family="'JetBrains Mono','SF Mono',Consolas,Menlo,monospace">
+    <g transform="translate(0,10)">
+      <rect width="205" height="230" rx="12" fill="#14161B" stroke="#2B2E36"/>
+      <rect width="205" height="4" rx="2" fill="#FF7A1A"/>
+      <text x="18" y="38" font-size="12" fill="#FF7A1A" letter-spacing="2">01</text>
+      <text x="18" y="64" font-size="18" font-weight="700" fill="#FFFFFF">Frontend</text>
+      <text x="18" y="98" font-size="12" fill="#B8BCC4">React.js &amp; Hooks</text>
+      <text x="18" y="122" font-size="12" fill="#B8BCC4">Angular</text>
+      <text x="18" y="146" font-size="12" fill="#B8BCC4">Figma-to-Code</text>
+      <text x="18" y="170" font-size="12" fill="#B8BCC4">Responsive Design</text>
+      <text x="18" y="194" font-size="12" fill="#B8BCC4">Forms &amp; Validation</text>
+    </g>
+    <g transform="translate(225,10)">
+      <rect width="205" height="230" rx="12" fill="#14161B" stroke="#2B2E36"/>
+      <rect width="205" height="4" rx="2" fill="#FF7A1A"/>
+      <text x="18" y="38" font-size="12" fill="#FF7A1A" letter-spacing="2">02</text>
+      <text x="18" y="64" font-size="18" font-weight="700" fill="#FFFFFF">Backend</text>
+      <text x="18" y="98" font-size="12" fill="#B8BCC4">Node.js &amp; Express.js</text>
+      <text x="18" y="122" font-size="12" fill="#B8BCC4">REST APIs</text>
+      <text x="18" y="146" font-size="12" fill="#B8BCC4">JWT Authentication</text>
+      <text x="18" y="170" font-size="12" fill="#B8BCC4">Role-Based Access</text>
+      <text x="18" y="194" font-size="12" fill="#B8BCC4">MongoDB &amp; Mongoose</text>
+    </g>
+    <g transform="translate(450,10)">
+      <rect width="205" height="230" rx="12" fill="#14161B" stroke="#2B2E36"/>
+      <rect width="205" height="4" rx="2" fill="#FF7A1A"/>
+      <text x="18" y="38" font-size="12" fill="#FF7A1A" letter-spacing="2">03</text>
+      <text x="18" y="64" font-size="18" font-weight="700" fill="#FFFFFF">Business Systems</text>
+      <text x="18" y="98" font-size="12" fill="#B8BCC4">ERP admin panels</text>
+      <text x="18" y="122" font-size="12" fill="#B8BCC4">POS (billing &amp; orders)</text>
+      <text x="18" y="146" font-size="12" fill="#B8BCC4">KDS &amp; Kiosk</text>
+      <text x="18" y="170" font-size="12" fill="#B8BCC4">Self-Checkout</text>
+      <text x="18" y="194" font-size="12" fill="#B8BCC4">Printer integration</text>
+    </g>
+    <g transform="translate(675,10)">
+      <rect width="205" height="230" rx="12" fill="#14161B" stroke="#2B2E36"/>
+      <rect width="205" height="4" rx="2" fill="#FF7A1A"/>
+      <text x="18" y="38" font-size="12" fill="#FF7A1A" letter-spacing="2">04</text>
+      <text x="18" y="64" font-size="18" font-weight="700" fill="#FFFFFF">Mobile &amp; AI</text>
+      <text x="18" y="98" font-size="12" fill="#B8BCC4">Flutter features</text>
+      <text x="18" y="122" font-size="12" fill="#B8BCC4">Bug fixes</text>
+      <text x="18" y="146" font-size="12" fill="#B8BCC4">Android testing</text>
+      <text x="18" y="170" font-size="12" fill="#B8BCC4">AI-assisted dev</text>
+      <text x="18" y="194" font-size="12" fill="#B8BCC4">Claude Code &amp; Copilot</text>
+    </g>
+  </g>
+</svg>

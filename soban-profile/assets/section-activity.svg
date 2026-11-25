@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="48" viewBox="0 0 880 48" role="img" aria-label="GitHub Activity">
+  <rect width="880" height="48" fill="#0B0C0F"/>
+  <rect x="0" y="12" width="6" height="24" rx="3" fill="#FF7A1A"/>
+  <text x="22" y="31" font-family="'JetBrains Mono','SF Mono',Consolas,Menlo,monospace" font-size="20" font-weight="700" fill="#FFFFFF" letter-spacing="2">GITHUB ACTIVITY</text>
+  <line x1="248" y1="24" x2="820" y2="24" stroke="#23262D"/>
+  <text x="878" y="29" text-anchor="end" font-family="'JetBrains Mono','SF Mono',Consolas,Menlo,monospace" font-size="14" fill="#FF7A1A">07</text>
+</svg>

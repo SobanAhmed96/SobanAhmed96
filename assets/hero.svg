@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="Soban Ahmed — MERN Stack Developer and Frontend Developer">
+  <defs>
+    <radialGradient id="glow" cx="85%" cy="0%" r="70%">
+      <stop offset="0%" stop-color="#FF7A1A" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#FF7A1A" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FF7A1A"/>
+      <stop offset="100%" stop-color="#FFB454" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#FFFFFF" stroke-opacity="0.035"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="320" rx="14" fill="#0B0C0F"/>
+  <rect width="1200" height="320" rx="14" fill="url(#grid)"/>
+  <rect width="1200" height="320" rx="14" fill="url(#glow)"/>
+  <rect x="0.5" y="0.5" width="1199" height="319" rx="14" fill="none" stroke="#23262D"/>
+
+  <text x="64" y="86" font-family="'JetBrains Mono','SF Mono',Consolas,Menlo,monospace" font-size="16" fill="#FF7A1A">soban@karachi:~$ whoami</text>
+  <text x="64" y="172" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="78" font-weight="800" fill="#FFFFFF" letter-spacing="-2">Soban Ahmed</text>
+  <text x="66" y="218" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="27" font-weight="600" fill="#FF7A1A">MERN Stack Developer · Frontend Developer</text>
+  <text x="66" y="256" font-family="'JetBrains Mono','SF Mono',Consolas,Menlo,monospace" font-size="15" fill="#8A8F98">React · Angular · Node.js · MongoDB · Flutter — from Figma to production</text>
+  <rect x="66" y="282" width="360" height="3" rx="1.5" fill="url(#line)"/>
+
+  <g transform="translate(830,64)">
+    <rect width="306" height="170" rx="12" fill="#14161B" stroke="#2B2E36"/>
+    <circle cx="22" cy="22" r="5" fill="#FF7A1A"/>
+    <circle cx="40" cy="22" r="5" fill="#FFB454"/>
+    <circle cx="58" cy="22" r="5" fill="#3A3D45"/>
+    <text x="22" y="62" font-family="'JetBrains Mono','SF Mono',Consolas,Menlo,monospace" font-size="13" fill="#8A8F98">currently_building:</text>
+    <text x="22" y="88" font-family="'JetBrains Mono','SF Mono',Consolas,Menlo,monospace" font-size="20" font-weight="700" fill="#FFFFFF">FoodlyOS</text>
+    <text x="22" y="112" font-family="'JetBrains Mono','SF Mono',Consolas,Menlo,monospace" font-size="12" fill="#8A8F98">multi-role food delivery</text>
+    <text x="22" y="132" font-family="'JetBrains Mono','SF Mono',Consolas,Menlo,monospace" font-size="12" fill="#8A8F98">platform · MERN · JWT</text>
+    <circle cx="26" cy="151" r="5" fill="#FF7A1A">
+      <animate attributeName="opacity" values="1;0.2;1" dur="1.8s" repeatCount="indefinite"/>
+    </circle>
+    <text x="40" y="155" font-family="'JetBrains Mono','SF Mono',Consolas,Menlo,monospace" font-size="12" fill="#FFB454">in development</text>
+  </g>
+</svg>

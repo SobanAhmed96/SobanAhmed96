@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="170" viewBox="0 0 880 170" role="img" aria-label="Let's build something great. sobanahmed9898@gmail.com">
+  <defs>
+    <radialGradient id="cg" cx="100%" cy="100%" r="80%">
+      <stop offset="0%" stop-color="#FF7A1A" stop-opacity="0.30"/>
+      <stop offset="100%" stop-color="#FF7A1A" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="880" height="170" rx="14" fill="#0B0C0F"/>
+  <rect width="880" height="170" rx="14" fill="url(#cg)"/>
+  <rect x="0.5" y="0.5" width="879" height="169" rx="14" fill="none" stroke="#23262D"/>
+  <text x="440" y="74" text-anchor="middle" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="40" font-weight="800" fill="#FFFFFF" letter-spacing="-1">Let's build something great.</text>
+  <text x="440" y="112" text-anchor="middle" font-family="'JetBrains Mono','SF Mono',Consolas,Menlo,monospace" font-size="17" fill="#FF7A1A">sobanahmed9898@gmail.com</text>
+  <text x="440" y="140" text-anchor="middle" font-family="'JetBrains Mono','SF Mono',Consolas,Menlo,monospace" font-size="12" fill="#8A8F98">open to collaboration · freelance projects · new opportunities</text>
+</svg>
