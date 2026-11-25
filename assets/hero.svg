@@ -31,6 +31,8 @@ text{font-family:'Segoe UI',-apple-system,Helvetica,Arial,sans-serif}
 <g clip-path="url(#card)"><rect width="1000" height="360" fill="#0B0C0F"/>
 <rect class="drift" x="-32" y="-32" width="1064" height="424" fill="url(#g)"/>
 <ellipse cx="760" cy="180" rx="330" ry="210" fill="url(#glow)"><animate attributeName="opacity" values=".55;1;.55" dur="5s" repeatCount="indefinite"/></ellipse>
+<circle cx="752" cy="177" r="205" fill="none" stroke="#FF7A1A" stroke-opacity=".2" stroke-dasharray="3 9"><animateTransform attributeName="transform" type="rotate" from="0 752 177" to="360 752 177" dur="60s" repeatCount="indefinite"/></circle>
+<circle cx="752" cy="177" r="150" fill="none" stroke="#FF7A1A" stroke-opacity=".14" stroke-dasharray="10 14"><animateTransform attributeName="transform" type="rotate" from="360 752 177" to="0 752 177" dur="45s" repeatCount="indefinite"/></circle>
 <circle cx="341" r="1.6" fill="#FF7A1A"><animate attributeName="cy" values="370;-10" dur="11.2s" begin="-0.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;.55;0" dur="11.2s" begin="-9.2s" repeatCount="indefinite"/></circle>
 <circle cx="106" r="2" fill="#FF7A1A"><animate attributeName="cy" values="370;-10" dur="12.7s" begin="-11.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;.55;0" dur="12.7s" begin="-2.7s" repeatCount="indefinite"/></circle>
 <circle cx="98" r="2.6" fill="#FF7A1A"><animate attributeName="cy" values="370;-10" dur="11.3s" begin="-2.7s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;.55;0" dur="11.3s" begin="-6.3s" repeatCount="indefinite"/></circle>

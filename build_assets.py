@@ -98,6 +98,8 @@ def hero():
     parts = [f'<g clip-path="url(#card)"><rect width="{w}" height="{h}" fill="{BG}"/>',
              f'<rect class="drift" x="-32" y="-32" width="{w+64}" height="{h+64}" fill="url(#g)"/>',
              f'<ellipse cx="760" cy="180" rx="330" ry="210" fill="url(#glow)"><animate attributeName="opacity" values=".55;1;.55" dur="5s" repeatCount="indefinite"/></ellipse>']
+    parts += [f'<circle cx="752" cy="177" r="205" fill="none" stroke="{O}" stroke-opacity=".2" stroke-dasharray="3 9"><animateTransform attributeName="transform" type="rotate" from="0 752 177" to="360 752 177" dur="60s" repeatCount="indefinite"/></circle>',
+             f'<circle cx="752" cy="177" r="150" fill="none" stroke="{O}" stroke-opacity=".14" stroke-dasharray="10 14"><animateTransform attributeName="transform" type="rotate" from="360 752 177" to="0 752 177" dur="45s" repeatCount="indefinite"/></circle>']
     # particles
     for _ in range(20):
         x = rnd.randint(10, w - 10)
@@ -503,182 +505,6 @@ def footer():
     save("footer.svg", svg(w, h, body))
 
 
-# =====================================================================
-# README
-# =====================================================================
-def readme():
-    lines = ["Frontend Developer @ Airtech Solutions", "MERN Stack · React · Angular · Node.js · MongoDB",
-             "Building FoodlyOS — multi-role food delivery", "POS · KDS · Kiosk · ERP · Receipt printing",
-             "From Figma designs to production-ready UIs"]
-    typing = "https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=17&duration=3200&pause=1100&color=FF7A1A&center=true&vCenter=true&width=820&lines=" + ";".join(quote_plus(l) for l in lines)
-    S = "./assets/"
-    def img(alt, f):
-        return f"[![{alt}]({S}{f})]({S}{f})"
-    md = f'''<a name="top"></a>
-<div align="center">
-
-{img("Soban Ahmed — MERN Stack Developer and Frontend Developer", "hero.svg")}
-
-[![Typing animation]({typing})](https://github.com/{USER})
-
-[![Email](https://img.shields.io/badge/EMAIL-sobanahmed9898%40gmail.com-FF7A1A?style=for-the-badge&logo=gmail&logoColor=0B0C0F&labelColor=0B0C0F)](mailto:{EMAIL}) [![LinkedIn](https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)]({LINKEDIN}) [![GitHub](https://img.shields.io/badge/GITHUB-{USER}-FF7A1A?style=for-the-badge&logo=github&logoColor=0B0C0F&labelColor=0B0C0F)](https://github.com/{USER}) [![Portfolio](https://img.shields.io/badge/PORTFOLIO-LIVE-FF7A1A?style=for-the-badge&logo=vercel&logoColor=0B0C0F&labelColor=0B0C0F)]({PORTFOLIO})
-
-[![Open to](https://img.shields.io/badge/OPEN_TO-OPPORTUNITIES-FF7A1A?style=flat-square&logo=rocket&logoColor=0B0C0F&labelColor=0B0C0F)](mailto:{EMAIL}) [![Location](https://img.shields.io/badge/BASED_IN-KARACHI,_PAKISTAN-FF7A1A?style=flat-square&logo=googlemaps&logoColor=0B0C0F&labelColor=0B0C0F)](#contact) [![Work](https://img.shields.io/badge/WORKING_AT-AIRTECH_SOLUTIONS-FF7A1A?style=flat-square&logo=briefcase&logoColor=0B0C0F&labelColor=0B0C0F)](#experience) [![Followers](https://img.shields.io/github/followers/{USER}?style=flat-square&label=followers&color=FF7A1A&labelColor=0B0C0F)](https://github.com/{USER}?tab=followers) [![Profile views](https://komarev.com/ghpvc/?username={USER}&label=profile%20views&style=flat-square&color=FF7A1A&labelColor=0B0C0F)](https://github.com/{USER})
-
-**[About](#about) · [Skills](#skills) · [How I Build](#how-i-build) · [Projects](#projects) · [Experience](#experience) · [Services](#services) · [Stack](#stack) · [Activity](#activity) · [Contact](#contact)**
-
-![divider]({S}divider.svg)
-
-</div>
-
-<a name="about"></a>
-
-{img("About", "section-about.svg")}
-
-I build web products across the whole stack: **React and Angular frontends**, **Node/Express REST APIs with JWT auth**, and **MongoDB** data layers. At work I ship **ERP, POS, KDS, Kiosk and Self-Checkout** interfaces with printer integration, and I use **AI-assisted development** to build and debug faster.
-
-{img("Frontend, Backend, Business Systems and Mobile & AI capabilities", "about.svg")}
-
-{img("Terminal: whoami, stack and recent commits", "terminal.svg")}
-
-| 🔭 Working on | 🌱 Improving | 🎓 Next goal |
-|---|---|---|
-| FoodlyOS, a full MERN food delivery product | Full-stack skills, clean architecture & reusable components | University studies in Computer Science |
-
-<a name="skills"></a>
-
-{img("Skills", "section-skills.svg")}
-
-{img("Animated skill bars", "skills.svg")}
-
-<a name="how-i-build"></a>
-
-{img("How I Build", "section-workflow.svg")}
-
-One workflow, six stages. Every project goes through the same path.
-
-{img("Pipeline: Design, Plan, Build UI, Integrate, Test, Deliver", "pipeline.svg")}
-
-<a name="projects"></a>
-
-{img("Featured Projects", "section-projects.svg")}
-
-#### 🍔 FoodlyOS &nbsp;`In Development`
-
-**Multi-role food delivery platform** built on the full MERN stack with JWT authentication and role-based access.
-
-{img("FoodlyOS architecture: Super Admin, Restaurant Admin and Customer Website to a Node.js Express REST API, then MongoDB", "foodlyos-architecture.svg")}
-
-| Role | What it does |
-|---|---|
-| 👑 **Super Admin** | Platform control and restaurant oversight |
-| 🏪 **Restaurant Admin** | Menu management and incoming orders |
-| 🛒 **Customer Website** | Browse, order and delivery |
-
-`MongoDB` `Express.js` `React.js` `Node.js` `Mongoose` `JWT`
-
-#### More projects
-
-| Project | Description | Stack |
-|---|---|---|
-| **🚚 FoodCarrier** | Food delivery platform: customer frontend with menu browsing & order flow, reusable components, responsive layouts, REST API integration with error handling, admin interfaces & configurable delivery options | `React.js` `JavaScript` `REST APIs` `Git` |
-| **📋 Digital Menu** | Digital menu application with a clean interface and responsive layout across all screen sizes | `React.js` `Responsive Design` |
-| **💼 Airtech Solutions** | Real business projects: ERP admin panels & dashboards, Angular POS system (billing & orders), KDS, Kiosk & Self-Checkout screens, printer integration for receipts & invoices | `React` `Angular` `Flutter` |
-
-<div align="center">
-
-[![ChatGPT-Auto-Prompt](https://github-readme-stats.vercel.app/api/pin/?username={USER}&repo=ChatGPT-Auto-Prompt&bg_color=0B0C0F&title_color=FF7A1A&text_color=E8E8EA&icon_color=FF7A1A&border_color=23262D)](https://github.com/{USER}/ChatGPT-Auto-Prompt)
-
-</div>
-
-<a name="experience"></a>
-
-{img("Experience", "section-experience.svg")}
-
-#### 🏢 Frontend Developer — Airtech Solutions
-
-`Dec 2025 – Present` · Karachi, Pakistan
-
-<details open>
-<summary><b>What I do day to day</b> (click to collapse)</summary>
-<br>
-
-- React.js apps from scratch: planning → components → implementation
-- Figma/UI designs → responsive interfaces for desktop, tablet and mobile
-- REST API integration with loading & error states
-- Forms with controlled inputs & validation (`useState`, `useEffect`)
-- ERP admin panels, dashboards & business workflows
-- Angular POS system for billing & day-to-day order operations
-- KDS, Kiosk & Self-Checkout projects
-- Printer integration for receipts, invoices & reports
-- Flutter features, bug fixes & Android device/emulator testing
-- Git/GitHub collaboration with backend developers, designers & QA
-
-</details>
-
-{img("Journey", "section-journey.svg")}
-
-{img("Journey: 2023-2024 frontend course, 2025 Flutter course, Dec 2025 joined Airtech Solutions, now building FoodlyOS", "journey.svg")}
-
-<a name="services"></a>
-
-{img("What I Build", "section-services.svg")}
-
-{img("Animated demo: kitchen display order flow and receipt printing", "pos-demo.svg")}
-
-| 🌐 Web Apps | 📊 Admin Panels | 🧾 POS / KDS / Kiosk | ⚙️ MERN Products |
-|---|---|---|---|
-| React.js & Angular applications built from scratch | Dashboards, ERP screens & business workflows | Order, billing, checkout & receipt printing UIs | Full-stack apps with REST APIs, JWT & role-based access |
-
-<div align="center">
-
-[![Let's Work Together](https://img.shields.io/badge/%F0%9F%93%A9%20LET'S%20WORK%20TOGETHER-FF7A1A?style=for-the-badge&labelColor=0B0C0F)](mailto:{EMAIL}?subject=Project%20Inquiry)
-
-</div>
-
-<a name="stack"></a>
-
-{img("Tech Stack", "section-stack.svg")}
-
-{img("Technology stack: frontend, backend, database, mobile, business systems and AI tools", "stack.svg")}
-
-<a name="activity"></a>
-
-{img("GitHub Activity", "section-activity.svg")}
-
-<div align="center">
-
-[![GitHub stats](https://github-readme-stats.vercel.app/api?username={USER}&show_icons=true&hide_border=true&count_private=true&bg_color=0B0C0F&title_color=FF7A1A&icon_color=FF7A1A&text_color=E8E8EA&ring_color=FF7A1A)](https://github.com/{USER}) [![Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username={USER}&layout=compact&hide_border=true&bg_color=0B0C0F&title_color=FF7A1A&text_color=E8E8EA)](https://github.com/{USER})
-
-[![GitHub streak](https://streak-stats.demolab.com?user={USER}&hide_border=true&background=0B0C0F&ring=FF7A1A&fire=FF7A1A&currStreakLabel=FF7A1A&currStreakNum=E8E8EA&sideLabels=E8E8EA&sideNums=E8E8EA&dates=8A8F98&stroke=23262D)](https://github.com/{USER})
-
-[![Contribution activity graph](https://github-readme-activity-graph.vercel.app/graph?username={USER}&bg_color=0B0C0F&color=FF7A1A&line=FF7A1A&point=FFFFFF&area=true&area_color=FF7A1A&hide_border=true)](https://github.com/{USER})
-
-[![Contribution graph snake animation](https://raw.githubusercontent.com/{USER}/{USER}/output/github-snake-dark.svg)](https://github.com/{USER})
-
-</div>
-
-<a name="contact"></a>
-
-{img("Contact", "section-contact.svg")}
-
-[![Let's build something great. {EMAIL}]({S}contact.svg)](mailto:{EMAIL})
-
-<div align="center">
-
-[![Email](https://img.shields.io/badge/EMAIL-sobanahmed9898%40gmail.com-FF7A1A?style=for-the-badge&logo=gmail&logoColor=0B0C0F&labelColor=0B0C0F)](mailto:{EMAIL}) [![LinkedIn](https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)]({LINKEDIN}) [![GitHub](https://img.shields.io/badge/GITHUB-{USER}-FF7A1A?style=for-the-badge&logo=github&logoColor=0B0C0F&labelColor=0B0C0F)](https://github.com/{USER}) [![Portfolio](https://img.shields.io/badge/PORTFOLIO-LIVE-FF7A1A?style=for-the-badge&logo=vercel&logoColor=0B0C0F&labelColor=0B0C0F)]({PORTFOLIO})
-
-{img("footer", "footer.svg")}
-
-<a href="#top">⬆️ Back to top</a>
-
-</div>
-'''
-    with open(os.path.join(HERE, "README.md"), "w", encoding="utf-8") as f:
-        f.write(md)
-    print("wrote README.md")
-
-
 if __name__ == "__main__":
     hero(); divider(); about(); pipeline(); journey(); architecture(); stack()
     terminal(); skills(); pos_demo(); contact(); footer()
@@ -688,4 +514,5 @@ if __name__ == "__main__":
                     ("services", "What I Build", "// POS · KDS · Kiosk · ERP"), ("stack", "Tech Stack", "// tools of the trade"),
                     ("activity", "GitHub Activity", "// commits & streaks"), ("contact", "Contact", "// say hello")]:
         section(k, t, c)
-    readme()
+    from extra_assets import build_extra
+    build_extra()
