@@ -1,45 +1,37 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="880" height="270" viewBox="0 0 880 270" role="img" aria-label="FoodlyOS architecture: three clients, Node.js Express REST API with JWT, MongoDB">
-  <defs>
-    <marker id="arr2" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="8" markerHeight="8" orient="auto">
-      <path d="M0 0L8 4L0 8Z" fill="#FF7A1A"/>
-    </marker>
-  </defs>
-  <rect width="880" height="270" rx="14" fill="#0B0C0F" stroke="#23262D"/>
-  <g font-family="'JetBrains Mono','SF Mono',Consolas,Menlo,monospace">
-    <g transform="translate(30,30)">
-      <rect width="230" height="56" rx="10" fill="#14161B" stroke="#2B2E36"/>
-      <text x="16" y="25" font-size="14" font-weight="700" fill="#FFFFFF">Super Admin Panel</text>
-      <text x="16" y="44" font-size="11" fill="#8A8F98">platform &amp; restaurant oversight</text>
-    </g>
-    <g transform="translate(30,107)">
-      <rect width="230" height="56" rx="10" fill="#14161B" stroke="#2B2E36"/>
-      <text x="16" y="25" font-size="14" font-weight="700" fill="#FFFFFF">Restaurant Admin Panel</text>
-      <text x="16" y="44" font-size="11" fill="#8A8F98">menu &amp; incoming orders</text>
-    </g>
-    <g transform="translate(30,184)">
-      <rect width="230" height="56" rx="10" fill="#14161B" stroke="#2B2E36"/>
-      <text x="16" y="25" font-size="14" font-weight="700" fill="#FFFFFF">Customer Website</text>
-      <text x="16" y="44" font-size="11" fill="#8A8F98">browse, order, delivery</text>
-    </g>
-
-    <g transform="translate(340,80)">
-      <rect width="250" height="110" rx="12" fill="#14161B" stroke="#FF7A1A" stroke-width="1.5"/>
-      <text x="125" y="36" text-anchor="middle" font-size="11" fill="#FF7A1A" letter-spacing="2">REST API</text>
-      <text x="125" y="62" text-anchor="middle" font-size="16" font-weight="700" fill="#FFFFFF">Node.js + Express</text>
-      <text x="125" y="86" text-anchor="middle" font-size="11" fill="#B8BCC4">JWT Auth · Role-Based Access</text>
-    </g>
-
-    <g transform="translate(670,80)">
-      <rect width="180" height="110" rx="12" fill="#14161B" stroke="#2B2E36"/>
-      <text x="90" y="36" text-anchor="middle" font-size="11" fill="#FF7A1A" letter-spacing="2">DATABASE</text>
-      <text x="90" y="62" text-anchor="middle" font-size="16" font-weight="700" fill="#FFFFFF">MongoDB</text>
-      <text x="90" y="86" text-anchor="middle" font-size="11" fill="#B8BCC4">Mongoose Models</text>
-    </g>
-  </g>
-  <g stroke="#FF7A1A" stroke-width="1.5" fill="none" marker-end="url(#arr2)">
-    <path d="M262 58 C300 58 300 120 336 128"/>
-    <line x1="262" y1="135" x2="336" y2="135"/>
-    <path d="M262 212 C300 212 300 150 336 142"/>
-    <line x1="592" y1="135" x2="666" y2="135"/>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 340" width="1000" height="340" role="img">
+<defs><style>
+text{font-family:'Segoe UI',-apple-system,Helvetica,Arial,sans-serif}
+.m{font-family:'JetBrains Mono','SF Mono','Fira Code',Consolas,'Courier New',monospace}
+.flow{stroke-dasharray:6 8;animation:flow 1.2s linear infinite}
+@keyframes flow{to{stroke-dashoffset:-14}}
+.glow{animation:gl 2.4s ease-in-out infinite}
+@keyframes gl{0%,100%{stroke-opacity:.35}50%{stroke-opacity:1}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style></defs>
+<rect x=".5" y=".5" width="999" height="339" rx="16" fill="#0B0C0F" stroke="#23262D"/>
+<path d="M250 65 C 325 65, 325 170, 400 170" fill="none" stroke="#23262D" stroke-width="2"/><path class="flow" d="M250 65 C 325 65, 325 170, 400 170" fill="none" stroke="#FF7A1A" stroke-opacity=".5" stroke-width="2"/>
+<rect x="20.5" y="30.5" width="229" height="69" rx="12" fill="#13151A" stroke="#23262D"/><rect x="38" y="52" width="26" height="26" rx="7" fill="none" stroke="#FF7A1A" stroke-width="2"><animate attributeName="stroke-opacity" values="1;.3;1" dur="2.4s" begin="0.0s" repeatCount="indefinite"/></rect><text x="78" y="61" font-size="16" font-weight="700" fill="#E8E8EA">Super Admin</text><text x="78" y="82" font-size="13" fill="#8A8F98">Platform control</text>
+<circle r="5" fill="#FF7A1A"><animateMotion path="M250 65 C 325 65, 325 170, 400 170" dur="2.6s" begin="0.00s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.1;.85;1" dur="2.6s" begin="0.00s" repeatCount="indefinite"/></circle>
+<circle r="5" fill="#FF7A1A"><animateMotion path="M250 65 C 325 65, 325 170, 400 170" dur="2.6s" begin="1.30s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.1;.85;1" dur="2.6s" begin="1.30s" repeatCount="indefinite"/></circle>
+<circle r="3.5" fill="#fff" opacity=".8"><animateMotion path="M250 65 C 325 65, 325 170, 400 170" keyPoints="1;0" keyTimes="0;1" calcMode="linear" dur="2.6s" begin="0.90s" repeatCount="indefinite"/></circle>
+<path d="M250 170 C 325 170, 325 170, 400 170" fill="none" stroke="#23262D" stroke-width="2"/><path class="flow" d="M250 170 C 325 170, 325 170, 400 170" fill="none" stroke="#FF7A1A" stroke-opacity=".5" stroke-width="2"/>
+<rect x="20.5" y="135.5" width="229" height="69" rx="12" fill="#13151A" stroke="#23262D"/><rect x="38" y="157" width="26" height="26" rx="7" fill="none" stroke="#FF7A1A" stroke-width="2"><animate attributeName="stroke-opacity" values="1;.3;1" dur="2.4s" begin="0.5s" repeatCount="indefinite"/></rect><text x="78" y="166" font-size="16" font-weight="700" fill="#E8E8EA">Restaurant Admin</text><text x="78" y="187" font-size="13" fill="#8A8F98">Menu &amp; incoming orders</text>
+<circle r="5" fill="#FF7A1A"><animateMotion path="M250 170 C 325 170, 325 170, 400 170" dur="2.6s" begin="0.45s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.1;.85;1" dur="2.6s" begin="0.45s" repeatCount="indefinite"/></circle>
+<circle r="5" fill="#FF7A1A"><animateMotion path="M250 170 C 325 170, 325 170, 400 170" dur="2.6s" begin="1.75s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.1;.85;1" dur="2.6s" begin="1.75s" repeatCount="indefinite"/></circle>
+<circle r="3.5" fill="#fff" opacity=".8"><animateMotion path="M250 170 C 325 170, 325 170, 400 170" keyPoints="1;0" keyTimes="0;1" calcMode="linear" dur="2.6s" begin="1.35s" repeatCount="indefinite"/></circle>
+<path d="M250 275 C 325 275, 325 170, 400 170" fill="none" stroke="#23262D" stroke-width="2"/><path class="flow" d="M250 275 C 325 275, 325 170, 400 170" fill="none" stroke="#FF7A1A" stroke-opacity=".5" stroke-width="2"/>
+<rect x="20.5" y="240.5" width="229" height="69" rx="12" fill="#13151A" stroke="#23262D"/><rect x="38" y="262" width="26" height="26" rx="7" fill="none" stroke="#FF7A1A" stroke-width="2"><animate attributeName="stroke-opacity" values="1;.3;1" dur="2.4s" begin="1.0s" repeatCount="indefinite"/></rect><text x="78" y="271" font-size="16" font-weight="700" fill="#E8E8EA">Customer Website</text><text x="78" y="292" font-size="13" fill="#8A8F98">Browse, order &amp; delivery</text>
+<circle r="5" fill="#FF7A1A"><animateMotion path="M250 275 C 325 275, 325 170, 400 170" dur="2.6s" begin="0.90s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.1;.85;1" dur="2.6s" begin="0.90s" repeatCount="indefinite"/></circle>
+<circle r="5" fill="#FF7A1A"><animateMotion path="M250 275 C 325 275, 325 170, 400 170" dur="2.6s" begin="2.20s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.1;.85;1" dur="2.6s" begin="2.20s" repeatCount="indefinite"/></circle>
+<circle r="3.5" fill="#fff" opacity=".8"><animateMotion path="M250 275 C 325 275, 325 170, 400 170" keyPoints="1;0" keyTimes="0;1" calcMode="linear" dur="2.6s" begin="1.80s" repeatCount="indefinite"/></circle>
+<path d="M640 170 H800" stroke="#23262D" stroke-width="2"/><path class="flow" d="M640 170 H800" stroke="#FF7A1A" stroke-opacity=".5" stroke-width="2"/>
+<circle r="5" fill="#FF7A1A"><animateMotion path="M640 170 H800" dur="1.6s" begin="0.00s" repeatCount="indefinite"/></circle>
+<circle r="3.5" fill="#fff" opacity=".8"><animateMotion path="M640 170 H800" keyPoints="1;0" keyTimes="0;1" calcMode="linear" dur="1.6s" begin="0.26s" repeatCount="indefinite"/></circle>
+<circle r="5" fill="#FF7A1A"><animateMotion path="M640 170 H800" dur="1.6s" begin="0.53s" repeatCount="indefinite"/></circle>
+<circle r="3.5" fill="#fff" opacity=".8"><animateMotion path="M640 170 H800" keyPoints="1;0" keyTimes="0;1" calcMode="linear" dur="1.6s" begin="0.79s" repeatCount="indefinite"/></circle>
+<circle r="5" fill="#FF7A1A"><animateMotion path="M640 170 H800" dur="1.6s" begin="1.06s" repeatCount="indefinite"/></circle>
+<circle r="3.5" fill="#fff" opacity=".8"><animateMotion path="M640 170 H800" keyPoints="1;0" keyTimes="0;1" calcMode="linear" dur="1.6s" begin="1.32s" repeatCount="indefinite"/></circle>
+<rect x="400" y="80" width="240" height="180" rx="16" fill="#13151A" stroke="#FF7A1A" stroke-width="2" class="glow"/><text x="520" y="118" font-size="18" font-weight="700" fill="#E8E8EA" text-anchor="middle">Node.js + Express</text><text class="m" x="520" y="140" font-size="13" fill="#FF7A1A" text-anchor="middle">REST API</text>
+<g><rect x="420" y="160" width="90" height="28" rx="14" fill="none" stroke="#FF7A1A" stroke-opacity=".7"/><text class="m" x="465" y="179" font-size="12" fill="#E8E8EA" text-anchor="middle">JWT auth</text><rect x="522" y="160" width="100" height="28" rx="14" fill="none" stroke="#FF7A1A" stroke-opacity=".7"/><text class="m" x="572" y="179" font-size="12" fill="#E8E8EA" text-anchor="middle">role guard</text><rect x="420" y="200" width="202" height="28" rx="14" fill="none" stroke="#23262D"/><text class="m" x="521" y="219" font-size="12" fill="#8A8F98" text-anchor="middle">Mongoose models</text></g>
+<path d="M800 120 V220 A80 22 0 0 0 960 220 V120" fill="#13151A" stroke="#FF7A1A" stroke-width="2"/><ellipse cx="880" cy="120" rx="80" ry="22" fill="#0B0C0F" stroke="#FF7A1A" stroke-width="2"/><path d="M800 160 A80 22 0 0 0 960 160" fill="none" stroke="#23262D"/><path d="M800 190 A80 22 0 0 0 960 190" fill="none" stroke="#23262D"/><ellipse cx="880" cy="120" rx="80" ry="22" fill="none" stroke="#FF7A1A" stroke-width="2"><animate attributeName="ry" values="22;26;22" dur="2.4s" repeatCount="indefinite"/></ellipse><text x="880" y="285" font-size="18" font-weight="700" fill="#E8E8EA" text-anchor="middle">MongoDB</text><text class="m" x="880" y="306" font-size="12" fill="#8A8F98" text-anchor="middle">orders · menus · users</text>
 </svg>

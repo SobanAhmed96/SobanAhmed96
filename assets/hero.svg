@@ -1,40 +1,75 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="Soban Ahmed — MERN Stack Developer and Frontend Developer">
-  <defs>
-    <radialGradient id="glow" cx="85%" cy="0%" r="70%">
-      <stop offset="0%" stop-color="#FF7A1A" stop-opacity="0.35"/>
-      <stop offset="100%" stop-color="#FF7A1A" stop-opacity="0"/>
-    </radialGradient>
-    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#FF7A1A"/>
-      <stop offset="100%" stop-color="#FFB454" stop-opacity="0"/>
-    </linearGradient>
-    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M40 0H0V40" fill="none" stroke="#FFFFFF" stroke-opacity="0.035"/>
-    </pattern>
-  </defs>
-  <rect width="1200" height="320" rx="14" fill="#0B0C0F"/>
-  <rect width="1200" height="320" rx="14" fill="url(#grid)"/>
-  <rect width="1200" height="320" rx="14" fill="url(#glow)"/>
-  <rect x="0.5" y="0.5" width="1199" height="319" rx="14" fill="none" stroke="#23262D"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 360" width="1000" height="360" role="img">
+<defs>
+<pattern id="g" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#FF7A1A" stroke-opacity=".07"/></pattern>
+<radialGradient id="glow" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#FF7A1A" stop-opacity=".38"/><stop offset="1" stop-color="#FF7A1A" stop-opacity="0"/></radialGradient>
+<linearGradient id="nm" x1="0" x2="1.2" spreadMethod="reflect"><stop offset="0" stop-color="#fff"/><stop offset=".5" stop-color="#FF7A1A"/><stop offset="1" stop-color="#FFB066"/>
+<animate attributeName="x1" values="0;1.2" dur="5s" repeatCount="indefinite"/><animate attributeName="x2" values="1.2;2.4" dur="5s" repeatCount="indefinite"/></linearGradient>
+<clipPath id="card"><rect width="1000" height="360" rx="16"/></clipPath>
+<clipPath id="sub"><rect x="56" y="200" height="34" width="0"><animate attributeName="width" values="0;0;420;420;0" keyTimes="0;.12;.42;.93;1" dur="10s" repeatCount="indefinite"/></rect></clipPath>
+<linearGradient id="sw" x1="0" x2="1"><stop offset="0" stop-color="#FF7A1A" stop-opacity="0"/><stop offset=".5" stop-color="#FF7A1A"/><stop offset="1" stop-color="#FF7A1A" stop-opacity="0"/></linearGradient>
+<style>
+text{font-family:'Segoe UI',-apple-system,Helvetica,Arial,sans-serif}
+.m{font-family:'JetBrains Mono','SF Mono','Fira Code',Consolas,'Courier New',monospace}
 
-  <text x="64" y="86" font-family="'JetBrains Mono','SF Mono',Consolas,Menlo,monospace" font-size="16" fill="#FF7A1A">soban@karachi:~$ whoami</text>
-  <text x="64" y="172" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="78" font-weight="800" fill="#FFFFFF" letter-spacing="-2">Soban Ahmed</text>
-  <text x="66" y="218" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="27" font-weight="600" fill="#FF7A1A">MERN Stack Developer · Frontend Developer</text>
-  <text x="66" y="256" font-family="'JetBrains Mono','SF Mono',Consolas,Menlo,monospace" font-size="15" fill="#8A8F98">React · Angular · Node.js · MongoDB · Flutter — from Figma to production</text>
-  <rect x="66" y="282" width="360" height="3" rx="1.5" fill="url(#line)"/>
+.drift{animation:drift 7s linear infinite}
+@keyframes drift{to{transform:translate(32px,32px)}}
+.draw{fill-opacity:0;stroke-dasharray:3000;stroke-dashoffset:3000;animation:draw 2.6s ease forwards,fin .9s 1.9s ease forwards,sf 3s forwards}
+@keyframes draw{to{stroke-dashoffset:0}}
+@keyframes fin{to{fill-opacity:1}}
+@keyframes sf{0%,70%{stroke-opacity:1}100%{stroke-opacity:0}}
+.ln{opacity:0;animation:ln 11s infinite}
+@keyframes ln{0%{opacity:0;transform:translateX(-10px)}5%,86%{opacity:1;transform:none}94%,100%{opacity:0}}
+.fl{animation:fl 4s ease-in-out infinite}
+@keyframes fl{0%,100%{transform:translateY(0)}50%{transform:translateY(-12px)}}
+.fade{opacity:0;animation:fo 1s 2.6s ease forwards}
+@keyframes fo{to{opacity:1}}
+.pulse{animation:pu 1.8s ease-in-out infinite}
+@keyframes pu{0%,100%{opacity:1}50%{opacity:.25}}
 
-  <g transform="translate(830,64)">
-    <rect width="306" height="170" rx="12" fill="#14161B" stroke="#2B2E36"/>
-    <circle cx="22" cy="22" r="5" fill="#FF7A1A"/>
-    <circle cx="40" cy="22" r="5" fill="#FFB454"/>
-    <circle cx="58" cy="22" r="5" fill="#3A3D45"/>
-    <text x="22" y="62" font-family="'JetBrains Mono','SF Mono',Consolas,Menlo,monospace" font-size="13" fill="#8A8F98">currently_building:</text>
-    <text x="22" y="88" font-family="'JetBrains Mono','SF Mono',Consolas,Menlo,monospace" font-size="20" font-weight="700" fill="#FFFFFF">FoodlyOS</text>
-    <text x="22" y="112" font-family="'JetBrains Mono','SF Mono',Consolas,Menlo,monospace" font-size="12" fill="#8A8F98">multi-role food delivery</text>
-    <text x="22" y="132" font-family="'JetBrains Mono','SF Mono',Consolas,Menlo,monospace" font-size="12" fill="#8A8F98">platform · MERN · JWT</text>
-    <circle cx="26" cy="151" r="5" fill="#FF7A1A">
-      <animate attributeName="opacity" values="1;0.2;1" dur="1.8s" repeatCount="indefinite"/>
-    </circle>
-    <text x="40" y="155" font-family="'JetBrains Mono','SF Mono',Consolas,Menlo,monospace" font-size="12" fill="#FFB454">in development</text>
-  </g>
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style></defs>
+<g clip-path="url(#card)"><rect width="1000" height="360" fill="#0B0C0F"/>
+<rect class="drift" x="-32" y="-32" width="1064" height="424" fill="url(#g)"/>
+<ellipse cx="760" cy="180" rx="330" ry="210" fill="url(#glow)"><animate attributeName="opacity" values=".55;1;.55" dur="5s" repeatCount="indefinite"/></ellipse>
+<circle cx="341" r="1.6" fill="#FF7A1A"><animate attributeName="cy" values="370;-10" dur="11.2s" begin="-0.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;.55;0" dur="11.2s" begin="-9.2s" repeatCount="indefinite"/></circle>
+<circle cx="106" r="2" fill="#FF7A1A"><animate attributeName="cy" values="370;-10" dur="12.7s" begin="-11.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;.55;0" dur="12.7s" begin="-2.7s" repeatCount="indefinite"/></circle>
+<circle cx="98" r="2.6" fill="#FF7A1A"><animate attributeName="cy" values="370;-10" dur="11.3s" begin="-2.7s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;.55;0" dur="11.3s" begin="-6.3s" repeatCount="indefinite"/></circle>
+<circle cx="70" r="1.2" fill="#FF7A1A"><animate attributeName="cy" values="370;-10" dur="15.6s" begin="-9.8s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;.55;0" dur="15.6s" begin="-9.1s" repeatCount="indefinite"/></circle>
+<circle cx="73" r="2.6" fill="#FF7A1A"><animate attributeName="cy" values="370;-10" dur="8.4s" begin="-1.9s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;.55;0" dur="8.4s" begin="-4.7s" repeatCount="indefinite"/></circle>
+<circle cx="146" r="2" fill="#FF7A1A"><animate attributeName="cy" values="370;-10" dur="11.4s" begin="-6.1s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;.55;0" dur="11.4s" begin="-6.5s" repeatCount="indefinite"/></circle>
+<circle cx="583" r="1.6" fill="#FF7A1A"><animate attributeName="cy" values="370;-10" dur="8.8s" begin="-5.0s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;.55;0" dur="8.8s" begin="-1.7s" repeatCount="indefinite"/></circle>
+<circle cx="109" r="1.2" fill="#FF7A1A"><animate attributeName="cy" values="370;-10" dur="12.5s" begin="-7.7s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;.55;0" dur="12.5s" begin="-6.2s" repeatCount="indefinite"/></circle>
+<circle cx="554" r="2.6" fill="#FF7A1A"><animate attributeName="cy" values="370;-10" dur="14.2s" begin="-6.6s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;.55;0" dur="14.2s" begin="-13.1s" repeatCount="indefinite"/></circle>
+<circle cx="380" r="2" fill="#FF7A1A"><animate attributeName="cy" values="370;-10" dur="10.0s" begin="-1.8s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;.55;0" dur="10.0s" begin="-7.8s" repeatCount="indefinite"/></circle>
+<circle cx="93" r="2" fill="#FF7A1A"><animate attributeName="cy" values="370;-10" dur="12.2s" begin="-10.7s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;.55;0" dur="12.2s" begin="-8.9s" repeatCount="indefinite"/></circle>
+<circle cx="304" r="1.2" fill="#FF7A1A"><animate attributeName="cy" values="370;-10" dur="8.9s" begin="-3.7s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;.55;0" dur="8.9s" begin="-6.8s" repeatCount="indefinite"/></circle>
+<circle cx="165" r="2.6" fill="#FF7A1A"><animate attributeName="cy" values="370;-10" dur="11.4s" begin="-10.9s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;.55;0" dur="11.4s" begin="-0.9s" repeatCount="indefinite"/></circle>
+<circle cx="581" r="2" fill="#FF7A1A"><animate attributeName="cy" values="370;-10" dur="10.7s" begin="-3.8s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;.55;0" dur="10.7s" begin="-5.3s" repeatCount="indefinite"/></circle>
+<circle cx="826" r="2.6" fill="#FF7A1A"><animate attributeName="cy" values="370;-10" dur="8.6s" begin="-0.8s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;.55;0" dur="8.6s" begin="-2.3s" repeatCount="indefinite"/></circle>
+<circle cx="723" r="1.2" fill="#FF7A1A"><animate attributeName="cy" values="370;-10" dur="8.5s" begin="-6.0s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;.55;0" dur="8.5s" begin="-5.5s" repeatCount="indefinite"/></circle>
+<circle cx="707" r="2.6" fill="#FF7A1A"><animate attributeName="cy" values="370;-10" dur="10.3s" begin="-4.0s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;.55;0" dur="10.3s" begin="-6.9s" repeatCount="indefinite"/></circle>
+<circle cx="33" r="2.6" fill="#FF7A1A"><animate attributeName="cy" values="370;-10" dur="10.8s" begin="-6.6s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;.55;0" dur="10.8s" begin="-5.4s" repeatCount="indefinite"/></circle>
+<circle cx="233" r="2" fill="#FF7A1A"><animate attributeName="cy" values="370;-10" dur="9.0s" begin="-2.2s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;.55;0" dur="9.0s" begin="-3.5s" repeatCount="indefinite"/></circle>
+<circle cx="902" r="2.6" fill="#FF7A1A"><animate attributeName="cy" values="370;-10" dur="8.6s" begin="-3.9s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;.55;0" dur="8.6s" begin="-4.7s" repeatCount="indefinite"/></circle>
+<text class="m ln" x="56" y="96" font-size="15" fill="#FF7A1A" style="animation-delay:0s">&lt;hello-world /&gt;</text>
+<text class="draw" x="56" y="172" font-size="60" font-weight="800" fill="url(#nm)" stroke="#FF7A1A" stroke-width="1.4" letter-spacing="-1">Soban Ahmed</text>
+<g clip-path="url(#sub)"><text class="m" x="56" y="226" font-size="22" font-weight="600" fill="#E8E8EA">MERN Stack · Frontend Developer</text></g>
+<rect x="56" y="206" width="11" height="26" fill="#FF7A1A"><animate attributeName="x" values="56;56;474;474;56" keyTimes="0;.12;.42;.93;1" dur="10s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;0;1;0;1;0;1" dur="1.1s" repeatCount="indefinite"/></rect>
+<text class="fade" x="56" y="268" font-size="15" fill="#8A8F98">Frontend Developer @ Airtech Solutions · Karachi, Pakistan</text>
+<g class="fade"><circle cx="62" cy="304" r="5" fill="#FF7A1A" class="pulse"/><text x="76" y="309" font-size="15" font-weight="600" fill="#FF7A1A">Open to opportunities</text></g>
+<g class="fl" style="animation-duration:6s"><rect x="560" y="52" width="384" height="250" rx="14" fill="#13151A" stroke="#23262D"/><rect x="560" y="52" width="384" height="34" rx="14" fill="#191C22"/><rect x="560" y="72" width="384" height="14" fill="#191C22"/><circle cx="580" cy="69" r="5" fill="#FF5F57"/><circle cx="598" cy="69" r="5" fill="#FEBC2E"/><circle cx="616" cy="69" r="5" fill="#FF7A1A"/><text class="m" x="752" y="73" font-size="12" fill="#8A8F98" text-anchor="middle">soban.js</text>
+<text class="m ln" xml:space="preserve" x="580" y="116" font-size="14" style="animation-delay:0.50s"><tspan fill="#FF7A1A">const</tspan> <tspan fill="#E8E8EA">soban</tspan> <tspan fill="#8A8F98">= {</tspan></text>
+<text class="m ln" xml:space="preserve" x="580" y="142" font-size="14" style="animation-delay:0.95s">  <tspan fill="#8A8F98">role:</tspan> <tspan fill="#FFB066">"Frontend Dev"</tspan>,</text>
+<text class="m ln" xml:space="preserve" x="580" y="168" font-size="14" style="animation-delay:1.40s">  <tspan fill="#8A8F98">stack:</tspan> <tspan fill="#FFB066">["React","Node"]</tspan>,</text>
+<text class="m ln" xml:space="preserve" x="580" y="194" font-size="14" style="animation-delay:1.85s">  <tspan fill="#8A8F98">systems:</tspan> <tspan fill="#FFB066">["POS","KDS","ERP"]</tspan>,</text>
+<text class="m ln" xml:space="preserve" x="580" y="220" font-size="14" style="animation-delay:2.30s">  <tspan fill="#8A8F98">building:</tspan> <tspan fill="#FFB066">"FoodlyOS"</tspan>,</text>
+<text class="m ln" xml:space="preserve" x="580" y="246" font-size="14" style="animation-delay:2.75s">  <tspan fill="#8A8F98">coffee:</tspan> <tspan fill="#FF7A1A">true</tspan></text>
+<text class="m ln" xml:space="preserve" x="580" y="272" font-size="14" style="animation-delay:3.20s"><tspan fill="#8A8F98">};</tspan></text>
+<rect x="580" y="284" width="9" height="16" fill="#FF7A1A"><animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/></rect></g>
+<g class="fl" style="animation-delay:-0s;animation-duration:4.0s"><circle cx="520" cy="90" r="21" fill="#13151A" stroke="#FF7A1A" stroke-opacity=".6"/><text class="m" x="520" y="95" font-size="15" font-weight="700" fill="#FF7A1A" text-anchor="middle">R</text></g>
+<g class="fl" style="animation-delay:-1s;animation-duration:4.7s"><circle cx="972" cy="120" r="21" fill="#13151A" stroke="#FF7A1A" stroke-opacity=".6"/><text class="m" x="972" y="125" font-size="15" font-weight="700" fill="#FF7A1A" text-anchor="middle">A</text></g>
+<g class="fl" style="animation-delay:-2s;animation-duration:5.4s"><circle cx="530" cy="320" r="21" fill="#13151A" stroke="#FF7A1A" stroke-opacity=".6"/><text class="m" x="530" y="325" font-size="15" font-weight="700" fill="#FF7A1A" text-anchor="middle">N</text></g>
+<g class="fl" style="animation-delay:-3s;animation-duration:6.1s"><circle cx="968" cy="320" r="21" fill="#13151A" stroke="#FF7A1A" stroke-opacity=".6"/><text class="m" x="968" y="325" font-size="15" font-weight="700" fill="#FF7A1A" text-anchor="middle">M</text></g>
+<rect x="-240" y="357" width="240" height="3" fill="url(#sw)"><animate attributeName="x" values="-240;1000" dur="4s" repeatCount="indefinite"/></rect></g>
+<rect x=".5" y=".5" width="999" height="359" rx="16" fill="none" stroke="#23262D"/>
 </svg>

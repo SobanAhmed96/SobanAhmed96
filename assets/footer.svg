@@ -1,12 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="880" height="70" viewBox="0 0 880 70" role="img" aria-label="Thanks for visiting. Soban Ahmed, Karachi, Pakistan">
-  <defs>
-    <linearGradient id="fl" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#FF7A1A" stop-opacity="0"/>
-      <stop offset="50%" stop-color="#FF7A1A"/>
-      <stop offset="100%" stop-color="#FF7A1A" stop-opacity="0"/>
-    </linearGradient>
-  </defs>
-  <rect width="880" height="70" fill="#0B0C0F"/>
-  <rect x="0" y="14" width="880" height="2" fill="url(#fl)"/>
-  <text x="440" y="44" text-anchor="middle" font-family="'JetBrains Mono','SF Mono',Consolas,Menlo,monospace" font-size="13" fill="#8A8F98">Thanks for visiting  ·  Soban Ahmed  ·  Karachi, Pakistan</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 130" width="1000" height="130" role="img">
+<defs><style>
+text{font-family:'Segoe UI',-apple-system,Helvetica,Arial,sans-serif}
+.m{font-family:'JetBrains Mono','SF Mono','Fira Code',Consolas,'Courier New',monospace}
+
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style></defs>
+<clipPath id="c"><rect width="1000" height="130" rx="14"/></clipPath>
+<g clip-path="url(#c)"><rect width="1000" height="130" fill="#0B0C0F"/>
+<path d="M0,84.0 L20,87.9 L40,90.8 L60,92.0 L80,91.2 L100,88.7 L120,85.0 L140,81.1 L160,77.8 L180,76.1 L200,76.4 L220,78.5 L240,82.0 L260,86.0 L280,89.5 L300,91.6 L320,91.9 L340,90.2 L360,86.9 L380,83.0 L400,79.3 L420,76.8 L440,76.0 L460,77.2 L480,80.1 L500,84.0 L520,87.9 L540,90.8 L560,92.0 L580,91.2 L600,88.7 L620,85.0 L640,81.1 L660,77.8 L680,76.1 L700,76.4 L720,78.5 L740,82.0 L760,86.0 L780,89.5 L800,91.6 L820,91.9 L840,90.2 L860,86.9 L880,83.0 L900,79.3 L920,76.8 L940,76.0 L960,77.2 L980,80.1 L1000,84.0 L1020,87.9 L1040,90.8 L1060,92.0 L1080,91.2 L1100,88.7 L1120,85.0 L1140,81.1 L1160,77.8 L1180,76.1 L1200,76.4 L1220,78.5 L1240,82.0 L1260,86.0 L1280,89.5 L1300,91.6 L1320,91.9 L1340,90.2 L1360,86.9 L1380,83.0 L1400,79.3 L1420,76.8 L1440,76.0 L1460,77.2 L1480,80.1 L1500,84.0 L1520,87.9 L1540,90.8 L1560,92.0 L1580,91.2 L1600,88.7 L1620,85.0 L1640,81.1 L1660,77.8 L1680,76.1 L1700,76.4 L1720,78.5 L1740,82.0 L1760,86.0 L1780,89.5 L1800,91.6 L1820,91.9 L1840,90.2 L1860,86.9 L1880,83.0 L1900,79.3 L1920,76.8 L1940,76.0 L1960,77.2 L1980,80.1 L2000,84.0 V130 H0 Z" fill="#FF7A1A" fill-opacity=".10"><animateTransform attributeName="transform" type="translate" from="0 0" to="-1000 0" dur="14s" repeatCount="indefinite"/></path>
+<path d="M0,102.0 L20,100.6 L40,97.1 L60,92.3 L80,87.5 L100,83.7 L120,82.0 L140,82.8 L160,85.9 L180,90.4 L200,95.4 L220,99.5 L240,101.8 L260,101.6 L280,99.1 L300,94.8 L320,89.8 L340,85.4 L360,82.6 L380,82.1 L400,84.1 L420,88.0 L440,92.9 L460,97.6 L480,100.9 L500,102.0 L520,100.6 L540,97.1 L560,92.3 L580,87.5 L600,83.7 L620,82.0 L640,82.8 L660,85.9 L680,90.4 L700,95.4 L720,99.5 L740,101.8 L760,101.6 L780,99.1 L800,94.8 L820,89.8 L840,85.4 L860,82.6 L880,82.1 L900,84.1 L920,88.0 L940,92.9 L960,97.6 L980,100.9 L1000,102.0 L1020,100.6 L1040,97.1 L1060,92.3 L1080,87.5 L1100,83.7 L1120,82.0 L1140,82.8 L1160,85.9 L1180,90.4 L1200,95.4 L1220,99.5 L1240,101.8 L1260,101.6 L1280,99.1 L1300,94.8 L1320,89.8 L1340,85.4 L1360,82.6 L1380,82.1 L1400,84.1 L1420,88.0 L1440,92.9 L1460,97.6 L1480,100.9 L1500,102.0 L1520,100.6 L1540,97.1 L1560,92.3 L1580,87.5 L1600,83.7 L1620,82.0 L1640,82.8 L1660,85.9 L1680,90.4 L1700,95.4 L1720,99.5 L1740,101.8 L1760,101.6 L1780,99.1 L1800,94.8 L1820,89.8 L1840,85.4 L1860,82.6 L1880,82.1 L1900,84.1 L1920,88.0 L1940,92.9 L1960,97.6 L1980,100.9 L2000,102.0 V130 H0 Z" fill="#FF7A1A" fill-opacity=".16"><animateTransform attributeName="transform" type="translate" from="-1000 0" to="0 0" dur="10s" repeatCount="indefinite"/></path>
+<path d="M0,101.6 L20,98.8 L40,96.8 L60,96.0 L80,96.7 L100,98.8 L120,101.6 L140,104.5 L160,106.8 L180,107.9 L200,107.6 L220,105.8 L240,103.2 L260,100.2 L280,97.6 L300,96.2 L320,96.2 L340,97.6 L360,100.1 L380,103.1 L400,105.8 L420,107.6 L440,108.0 L460,106.9 L480,104.6 L500,101.6 L520,98.8 L540,96.8 L560,96.0 L580,96.7 L600,98.8 L620,101.6 L640,104.5 L660,106.8 L680,107.9 L700,107.6 L720,105.8 L740,103.2 L760,100.2 L780,97.6 L800,96.2 L820,96.2 L840,97.6 L860,100.1 L880,103.1 L900,105.8 L920,107.6 L940,108.0 L960,106.9 L980,104.6 L1000,101.6 L1020,98.8 L1040,96.8 L1060,96.0 L1080,96.7 L1100,98.8 L1120,101.6 L1140,104.5 L1160,106.8 L1180,107.9 L1200,107.6 L1220,105.8 L1240,103.2 L1260,100.2 L1280,97.6 L1300,96.2 L1320,96.2 L1340,97.6 L1360,100.1 L1380,103.1 L1400,105.8 L1420,107.6 L1440,108.0 L1460,106.9 L1480,104.6 L1500,101.6 L1520,98.8 L1540,96.8 L1560,96.0 L1580,96.7 L1600,98.8 L1620,101.6 L1640,104.5 L1660,106.8 L1680,107.9 L1700,107.6 L1720,105.8 L1740,103.2 L1760,100.2 L1780,97.6 L1800,96.2 L1820,96.2 L1840,97.6 L1860,100.1 L1880,103.1 L1900,105.8 L1920,107.6 L1940,108.0 L1960,106.9 L1980,104.6 L2000,101.6 V130 H0 Z" fill="#FF7A1A" fill-opacity=".28"><animateTransform attributeName="transform" type="translate" from="0 0" to="-1000 0" dur="7s" repeatCount="indefinite"/></path>
+<text x="500" y="48" font-size="20" font-weight="700" fill="#E8E8EA" text-anchor="middle">Thanks for stopping by</text>
+<text class="m" x="500" y="72" font-size="13" fill="#8A8F98" text-anchor="middle">© 2026 Soban Ahmed · built with React, Node and a lot of coffee</text></g>
+<rect x=".5" y=".5" width="999" height="129" rx="14" fill="none" stroke="#23262D"/>
 </svg>

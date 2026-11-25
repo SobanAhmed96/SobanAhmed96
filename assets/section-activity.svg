@@ -1,7 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="880" height="48" viewBox="0 0 880 48" role="img" aria-label="GitHub Activity">
-  <rect width="880" height="48" fill="#0B0C0F"/>
-  <rect x="0" y="12" width="6" height="24" rx="3" fill="#FF7A1A"/>
-  <text x="22" y="31" font-family="'JetBrains Mono','SF Mono',Consolas,Menlo,monospace" font-size="20" font-weight="700" fill="#FFFFFF" letter-spacing="2">GITHUB ACTIVITY</text>
-  <line x1="248" y1="24" x2="820" y2="24" stroke="#23262D"/>
-  <text x="878" y="29" text-anchor="end" font-family="'JetBrains Mono','SF Mono',Consolas,Menlo,monospace" font-size="14" fill="#FF7A1A">07</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 56" width="1000" height="56" role="img">
+<defs><linearGradient id="sw" x1="0" x2="1"><stop offset="0" stop-color="#FF7A1A" stop-opacity="0"/><stop offset=".5" stop-color="#FF7A1A"/><stop offset="1" stop-color="#FF7A1A" stop-opacity="0"/></linearGradient><clipPath id="c"><rect width="1000" height="56" rx="12"/></clipPath><style>
+text{font-family:'Segoe UI',-apple-system,Helvetica,Arial,sans-serif}
+.m{font-family:'JetBrains Mono','SF Mono','Fira Code',Consolas,'Courier New',monospace}
+
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style></defs>
+<rect x=".5" y=".5" width="999" height="55" rx="12" fill="#13151A" stroke="#23262D"/>
+<g clip-path="url(#c)"><rect x="-220" y="53" width="220" height="3" fill="url(#sw)"><animate attributeName="x" values="-220;1000" dur="3.4s" repeatCount="indefinite"/></rect></g>
+<rect x="18" y="14" width="5" height="28" rx="2.5" fill="#FF7A1A"><animate attributeName="height" values="28;12;28" dur="2.4s" repeatCount="indefinite"/><animate attributeName="y" values="14;22;14" dur="2.4s" repeatCount="indefinite"/></rect>
+<text x="44" y="36" font-size="22" font-weight="700" fill="#E8E8EA">GitHub Activity</text>
+<text class="m" x="252" y="35" font-size="14" fill="#8A8F98">// commits &amp; streaks</text>
+<circle cx="930" cy="28" r="3.5" fill="#FF7A1A"><animate attributeName="opacity" values="1;.2;1" dur="1.6s" repeatCount="indefinite"/></circle>
+<circle cx="946" cy="28" r="3.5" fill="#FF7A1A"><animate attributeName="opacity" values="1;.2;1" dur="1.6s" begin=".3s" repeatCount="indefinite"/></circle>
+<circle cx="962" cy="28" r="3.5" fill="#FF7A1A"><animate attributeName="opacity" values="1;.2;1" dur="1.6s" begin=".6s" repeatCount="indefinite"/></circle>
 </svg>

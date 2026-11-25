@@ -1,49 +1,38 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="880" height="250" viewBox="0 0 880 250" role="img" aria-label="Frontend, Backend, Business Systems and Mobile capabilities">
-  <rect width="880" height="250" fill="#0B0C0F"/>
-  <g font-family="'JetBrains Mono','SF Mono',Consolas,Menlo,monospace">
-    <g transform="translate(0,10)">
-      <rect width="205" height="230" rx="12" fill="#14161B" stroke="#2B2E36"/>
-      <rect width="205" height="4" rx="2" fill="#FF7A1A"/>
-      <text x="18" y="38" font-size="12" fill="#FF7A1A" letter-spacing="2">01</text>
-      <text x="18" y="64" font-size="18" font-weight="700" fill="#FFFFFF">Frontend</text>
-      <text x="18" y="98" font-size="12" fill="#B8BCC4">React.js &amp; Hooks</text>
-      <text x="18" y="122" font-size="12" fill="#B8BCC4">Angular</text>
-      <text x="18" y="146" font-size="12" fill="#B8BCC4">Figma-to-Code</text>
-      <text x="18" y="170" font-size="12" fill="#B8BCC4">Responsive Design</text>
-      <text x="18" y="194" font-size="12" fill="#B8BCC4">Forms &amp; Validation</text>
-    </g>
-    <g transform="translate(225,10)">
-      <rect width="205" height="230" rx="12" fill="#14161B" stroke="#2B2E36"/>
-      <rect width="205" height="4" rx="2" fill="#FF7A1A"/>
-      <text x="18" y="38" font-size="12" fill="#FF7A1A" letter-spacing="2">02</text>
-      <text x="18" y="64" font-size="18" font-weight="700" fill="#FFFFFF">Backend</text>
-      <text x="18" y="98" font-size="12" fill="#B8BCC4">Node.js &amp; Express.js</text>
-      <text x="18" y="122" font-size="12" fill="#B8BCC4">REST APIs</text>
-      <text x="18" y="146" font-size="12" fill="#B8BCC4">JWT Authentication</text>
-      <text x="18" y="170" font-size="12" fill="#B8BCC4">Role-Based Access</text>
-      <text x="18" y="194" font-size="12" fill="#B8BCC4">MongoDB &amp; Mongoose</text>
-    </g>
-    <g transform="translate(450,10)">
-      <rect width="205" height="230" rx="12" fill="#14161B" stroke="#2B2E36"/>
-      <rect width="205" height="4" rx="2" fill="#FF7A1A"/>
-      <text x="18" y="38" font-size="12" fill="#FF7A1A" letter-spacing="2">03</text>
-      <text x="18" y="64" font-size="18" font-weight="700" fill="#FFFFFF">Business Systems</text>
-      <text x="18" y="98" font-size="12" fill="#B8BCC4">ERP admin panels</text>
-      <text x="18" y="122" font-size="12" fill="#B8BCC4">POS (billing &amp; orders)</text>
-      <text x="18" y="146" font-size="12" fill="#B8BCC4">KDS &amp; Kiosk</text>
-      <text x="18" y="170" font-size="12" fill="#B8BCC4">Self-Checkout</text>
-      <text x="18" y="194" font-size="12" fill="#B8BCC4">Printer integration</text>
-    </g>
-    <g transform="translate(675,10)">
-      <rect width="205" height="230" rx="12" fill="#14161B" stroke="#2B2E36"/>
-      <rect width="205" height="4" rx="2" fill="#FF7A1A"/>
-      <text x="18" y="38" font-size="12" fill="#FF7A1A" letter-spacing="2">04</text>
-      <text x="18" y="64" font-size="18" font-weight="700" fill="#FFFFFF">Mobile &amp; AI</text>
-      <text x="18" y="98" font-size="12" fill="#B8BCC4">Flutter features</text>
-      <text x="18" y="122" font-size="12" fill="#B8BCC4">Bug fixes</text>
-      <text x="18" y="146" font-size="12" fill="#B8BCC4">Android testing</text>
-      <text x="18" y="170" font-size="12" fill="#B8BCC4">AI-assisted dev</text>
-      <text x="18" y="194" font-size="12" fill="#B8BCC4">Claude Code &amp; Copilot</text>
-    </g>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 250" width="1000" height="250" role="img">
+<defs><linearGradient id="sw" x1="0" x2="1"><stop offset="0" stop-color="#FF7A1A" stop-opacity="0"/><stop offset=".5" stop-color="#FF7A1A"/><stop offset="1" stop-color="#FF7A1A" stop-opacity="0"/></linearGradient><style>
+text{font-family:'Segoe UI',-apple-system,Helvetica,Arial,sans-serif}
+.m{font-family:'JetBrains Mono','SF Mono','Fira Code',Consolas,'Courier New',monospace}
+
+.card{opacity:0;animation:up .8s ease forwards}
+@keyframes up{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:none}}
+.ring{transform-box:fill-box;transform-origin:center;animation:ring 2.6s ease-out infinite}
+@keyframes ring{0%{transform:scale(.7);opacity:.8}100%{transform:scale(1.7);opacity:0}}
+
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style></defs>
+<rect x=".5" y=".5" width="999" height="249" rx="16" fill="#0B0C0F" stroke="#23262D"/>
+<g class="card" style="animation-delay:0.00s"><clipPath id="cc0"><rect x="0" y="8" width="232" height="234" rx="14"/></clipPath><rect x="0.5" y="8.5" width="231" height="233" rx="14" fill="#13151A" stroke="#23262D"/><g clip-path="url(#cc0)"><rect x="-160" y="8" width="160" height="3" fill="url(#sw)"><animate attributeName="x" values="-160;232" dur="3.6s" begin="0.0s" repeatCount="indefinite"/></rect></g><circle class="ring" cx="38" cy="56" r="20" fill="none" stroke="#FF7A1A" style="animation-delay:0.0s"/><circle cx="38" cy="56" r="20" fill="#0B0C0F" stroke="#FF7A1A"/><text class="m" x="38" y="61" font-size="14" font-weight="700" fill="#FF7A1A" text-anchor="middle">&lt;/&gt;</text><text x="70" y="62" font-size="18" font-weight="700" fill="#E8E8EA">Frontend</text>
+<circle cx="24" cy="104" r="3" fill="#FF7A1A"><animate attributeName="opacity" values=".3;1;.3" dur="3s" begin="0.00s" repeatCount="indefinite"/></circle><text x="38" y="108" font-size="14" fill="#8A8F98">React.js &amp; Angular</text>
+<circle cx="24" cy="134" r="3" fill="#FF7A1A"><animate attributeName="opacity" values=".3;1;.3" dur="3s" begin="0.25s" repeatCount="indefinite"/></circle><text x="38" y="138" font-size="14" fill="#8A8F98">Figma to responsive UI</text>
+<circle cx="24" cy="164" r="3" fill="#FF7A1A"><animate attributeName="opacity" values=".3;1;.3" dur="3s" begin="0.50s" repeatCount="indefinite"/></circle><text x="38" y="168" font-size="14" fill="#8A8F98">Forms, state &amp; validation</text>
+<circle cx="24" cy="194" r="3" fill="#FF7A1A"><animate attributeName="opacity" values=".3;1;.3" dur="3s" begin="0.75s" repeatCount="indefinite"/></circle><text x="38" y="198" font-size="14" fill="#8A8F98">Loading &amp; error states</text>
+</g>
+<g class="card" style="animation-delay:0.15s"><clipPath id="cc1"><rect x="256" y="8" width="232" height="234" rx="14"/></clipPath><rect x="256.5" y="8.5" width="231" height="233" rx="14" fill="#13151A" stroke="#23262D"/><g clip-path="url(#cc1)"><rect x="96" y="8" width="160" height="3" fill="url(#sw)"><animate attributeName="x" values="96;488" dur="3.6s" begin="0.5s" repeatCount="indefinite"/></rect></g><circle class="ring" cx="294" cy="56" r="20" fill="none" stroke="#FF7A1A" style="animation-delay:0.4s"/><circle cx="294" cy="56" r="20" fill="#0B0C0F" stroke="#FF7A1A"/><text class="m" x="294" y="61" font-size="14" font-weight="700" fill="#FF7A1A" text-anchor="middle">{ }</text><text x="326" y="62" font-size="18" font-weight="700" fill="#E8E8EA">Backend</text>
+<circle cx="280" cy="104" r="3" fill="#FF7A1A"><animate attributeName="opacity" values=".3;1;.3" dur="3s" begin="0.25s" repeatCount="indefinite"/></circle><text x="294" y="108" font-size="14" fill="#8A8F98">Node.js &amp; Express</text>
+<circle cx="280" cy="134" r="3" fill="#FF7A1A"><animate attributeName="opacity" values=".3;1;.3" dur="3s" begin="0.50s" repeatCount="indefinite"/></circle><text x="294" y="138" font-size="14" fill="#8A8F98">REST APIs</text>
+<circle cx="280" cy="164" r="3" fill="#FF7A1A"><animate attributeName="opacity" values=".3;1;.3" dur="3s" begin="0.75s" repeatCount="indefinite"/></circle><text x="294" y="168" font-size="14" fill="#8A8F98">JWT authentication</text>
+<circle cx="280" cy="194" r="3" fill="#FF7A1A"><animate attributeName="opacity" values=".3;1;.3" dur="3s" begin="1.00s" repeatCount="indefinite"/></circle><text x="294" y="198" font-size="14" fill="#8A8F98">Role-based access</text>
+</g>
+<g class="card" style="animation-delay:0.30s"><clipPath id="cc2"><rect x="512" y="8" width="232" height="234" rx="14"/></clipPath><rect x="512.5" y="8.5" width="231" height="233" rx="14" fill="#13151A" stroke="#23262D"/><g clip-path="url(#cc2)"><rect x="352" y="8" width="160" height="3" fill="url(#sw)"><animate attributeName="x" values="352;744" dur="3.6s" begin="1.0s" repeatCount="indefinite"/></rect></g><circle class="ring" cx="550" cy="56" r="20" fill="none" stroke="#FF7A1A" style="animation-delay:0.8s"/><circle cx="550" cy="56" r="20" fill="#0B0C0F" stroke="#FF7A1A"/><text class="m" x="550" y="61" font-size="14" font-weight="700" fill="#FF7A1A" text-anchor="middle">ERP</text><text x="582" y="62" font-size="18" font-weight="700" fill="#E8E8EA">Business systems</text>
+<circle cx="536" cy="104" r="3" fill="#FF7A1A"><animate attributeName="opacity" values=".3;1;.3" dur="3s" begin="0.50s" repeatCount="indefinite"/></circle><text x="550" y="108" font-size="14" fill="#8A8F98">Admin panels &amp; dashboards</text>
+<circle cx="536" cy="134" r="3" fill="#FF7A1A"><animate attributeName="opacity" values=".3;1;.3" dur="3s" begin="0.75s" repeatCount="indefinite"/></circle><text x="550" y="138" font-size="14" fill="#8A8F98">POS, KDS &amp; Kiosk</text>
+<circle cx="536" cy="164" r="3" fill="#FF7A1A"><animate attributeName="opacity" values=".3;1;.3" dur="3s" begin="1.00s" repeatCount="indefinite"/></circle><text x="550" y="168" font-size="14" fill="#8A8F98">Self-Checkout screens</text>
+<circle cx="536" cy="194" r="3" fill="#FF7A1A"><animate attributeName="opacity" values=".3;1;.3" dur="3s" begin="1.25s" repeatCount="indefinite"/></circle><text x="550" y="198" font-size="14" fill="#8A8F98">Receipt &amp; invoice printing</text>
+</g>
+<g class="card" style="animation-delay:0.45s"><clipPath id="cc3"><rect x="768" y="8" width="232" height="234" rx="14"/></clipPath><rect x="768.5" y="8.5" width="231" height="233" rx="14" fill="#13151A" stroke="#23262D"/><g clip-path="url(#cc3)"><rect x="608" y="8" width="160" height="3" fill="url(#sw)"><animate attributeName="x" values="608;1000" dur="3.6s" begin="1.5s" repeatCount="indefinite"/></rect></g><circle class="ring" cx="806" cy="56" r="20" fill="none" stroke="#FF7A1A" style="animation-delay:1.2000000000000002s"/><circle cx="806" cy="56" r="20" fill="#0B0C0F" stroke="#FF7A1A"/><text class="m" x="806" y="61" font-size="14" font-weight="700" fill="#FF7A1A" text-anchor="middle">AI</text><text x="838" y="62" font-size="18" font-weight="700" fill="#E8E8EA">Mobile &amp; AI</text>
+<circle cx="792" cy="104" r="3" fill="#FF7A1A"><animate attributeName="opacity" values=".3;1;.3" dur="3s" begin="0.75s" repeatCount="indefinite"/></circle><text x="806" y="108" font-size="14" fill="#8A8F98">Flutter features &amp; fixes</text>
+<circle cx="792" cy="134" r="3" fill="#FF7A1A"><animate attributeName="opacity" values=".3;1;.3" dur="3s" begin="1.00s" repeatCount="indefinite"/></circle><text x="806" y="138" font-size="14" fill="#8A8F98">Android device testing</text>
+<circle cx="792" cy="164" r="3" fill="#FF7A1A"><animate attributeName="opacity" values=".3;1;.3" dur="3s" begin="1.25s" repeatCount="indefinite"/></circle><text x="806" y="168" font-size="14" fill="#8A8F98">AI-assisted development</text>
+<circle cx="792" cy="194" r="3" fill="#FF7A1A"><animate attributeName="opacity" values=".3;1;.3" dur="3s" begin="1.50s" repeatCount="indefinite"/></circle><text x="806" y="198" font-size="14" fill="#8A8F98">Build &amp; debug faster</text>
+</g>
 </svg>

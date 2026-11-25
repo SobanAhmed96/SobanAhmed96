@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 44" width="1000" height="44" role="img">
+<defs><style>
+text{font-family:'Segoe UI',-apple-system,Helvetica,Arial,sans-serif}
+.m{font-family:'JetBrains Mono','SF Mono','Fira Code',Consolas,'Courier New',monospace}
+
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style></defs>
+<path d="M0 22 H250 l10 0 l8 -14 l12 30 l10 -36 l10 20 l6 0 H560 l10 0 l8 -14 l12 30 l10 -36 l10 20 l6 0 H1000" fill="none" stroke="#23262D" stroke-width="2"/>
+<path d="M0 22 H250 l10 0 l8 -14 l12 30 l10 -36 l10 20 l6 0 H560 l10 0 l8 -14 l12 30 l10 -36 l10 20 l6 0 H1000" fill="none" stroke="#FF7A1A" stroke-width="2.4" stroke-linecap="round" stroke-dasharray="160 1700" pathLength="1860"><animate attributeName="stroke-dashoffset" values="160;-1700" dur="4s" repeatCount="indefinite"/></path>
+</svg>

@@ -1,14 +1,23 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="880" height="170" viewBox="0 0 880 170" role="img" aria-label="Let's build something great. sobanahmed9898@gmail.com">
-  <defs>
-    <radialGradient id="cg" cx="100%" cy="100%" r="80%">
-      <stop offset="0%" stop-color="#FF7A1A" stop-opacity="0.30"/>
-      <stop offset="100%" stop-color="#FF7A1A" stop-opacity="0"/>
-    </radialGradient>
-  </defs>
-  <rect width="880" height="170" rx="14" fill="#0B0C0F"/>
-  <rect width="880" height="170" rx="14" fill="url(#cg)"/>
-  <rect x="0.5" y="0.5" width="879" height="169" rx="14" fill="none" stroke="#23262D"/>
-  <text x="440" y="74" text-anchor="middle" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="40" font-weight="800" fill="#FFFFFF" letter-spacing="-1">Let's build something great.</text>
-  <text x="440" y="112" text-anchor="middle" font-family="'JetBrains Mono','SF Mono',Consolas,Menlo,monospace" font-size="17" fill="#FF7A1A">sobanahmed9898@gmail.com</text>
-  <text x="440" y="140" text-anchor="middle" font-family="'JetBrains Mono','SF Mono',Consolas,Menlo,monospace" font-size="12" fill="#8A8F98">open to collaboration · freelance projects · new opportunities</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 250" width="1000" height="250" role="img">
+<defs><linearGradient id="nm" x1="0" x2="1.2" spreadMethod="reflect"><stop offset="0" stop-color="#fff"/><stop offset=".5" stop-color="#FF7A1A"/><stop offset="1" stop-color="#FFB066"/><animate attributeName="x1" values="0;1.2" dur="5s" repeatCount="indefinite"/><animate attributeName="x2" values="1.2;2.4" dur="5s" repeatCount="indefinite"/></linearGradient><style>
+text{font-family:'Segoe UI',-apple-system,Helvetica,Arial,sans-serif}
+.m{font-family:'JetBrains Mono','SF Mono','Fira Code',Consolas,'Courier New',monospace}
+.fl{animation:fl 3.2s ease-in-out infinite}
+@keyframes fl{0%,100%{transform:translateY(0)}50%{transform:translateY(-10px)}}
+.ring{transform-box:fill-box;transform-origin:center;animation:ring 2.6s ease-out infinite}
+@keyframes ring{0%{transform:scale(.6);opacity:.8}100%{transform:scale(1.8);opacity:0}}
+.dash{stroke-dasharray:14 10;animation:dash 1.6s linear infinite}
+@keyframes dash{to{stroke-dashoffset:-24}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style></defs>
+<rect x="1" y="1" width="998" height="248" rx="16" fill="#0B0C0F"/>
+<rect x="1" y="1" width="998" height="248" rx="16" fill="none" stroke="#FF7A1A" stroke-opacity=".7" class="dash"/>
+<ellipse cx="170" cy="125" rx="200" ry="150" fill="#FF7A1A" opacity=".09"><animate attributeName="opacity" values=".05;.14;.05" dur="4s" repeatCount="indefinite"/></ellipse>
+<circle class="ring" cx="150" cy="118" r="52" fill="none" stroke="#FF7A1A"/><circle class="ring" cx="150" cy="118" r="52" fill="none" stroke="#FF7A1A" style="animation-delay:1.3s"/>
+<g class="fl"><rect x="106" y="90" width="88" height="62" rx="10" fill="#13151A" stroke="#FF7A1A" stroke-width="2.5"/><path d="M106 98 L150 128 L194 98" fill="none" stroke="#FF7A1A" stroke-width="2.5" stroke-linejoin="round"/></g>
+<text x="270" y="108" font-size="44" font-weight="800" fill="url(#nm)">Let's build something great.</text>
+<text class="m" x="270" y="150" font-size="20" fill="#E8E8EA">sobanahmed9898@gmail.com</text>
+<text class="m" x="270" y="184" font-size="14" fill="#8A8F98">// web apps · admin panels · POS / KDS · MERN products</text>
+<circle cx="276" cy="216" r="5" fill="#FF7A1A"><animate attributeName="opacity" values="1;.2;1" dur="1.4s" repeatCount="indefinite"/></circle>
+<text x="292" y="221" font-size="15" font-weight="600" fill="#FF7A1A">Open to opportunities</text>
 </svg>

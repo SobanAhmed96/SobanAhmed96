@@ -3,13 +3,15 @@
 
 [![Soban Ahmed — MERN Stack Developer and Frontend Developer](./assets/hero.svg)](./assets/hero.svg)
 
-[![Typing animation](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=17&duration=3200&pause=1100&color=FF7A1A&center=true&vCenter=true&width=820&lines=Frontend+Developer+%40+Airtech+Solutions;MERN+Stack+%C2%B7+React+%C2%B7+Angular+%C2%B7+Node.js+%C2%B7+MongoDB;Building+FoodlyOS+%E2%80%94+multi-role+food+delivery;From+Figma+designs+to+production-ready+UIs)](https://github.com/SobanAhmed96)
+[![Typing animation](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=17&duration=3200&pause=1100&color=FF7A1A&center=true&vCenter=true&width=820&lines=Frontend+Developer+%40+Airtech+Solutions;MERN+Stack+%C2%B7+React+%C2%B7+Angular+%C2%B7+Node.js+%C2%B7+MongoDB;Building+FoodlyOS+%E2%80%94+multi-role+food+delivery;POS+%C2%B7+KDS+%C2%B7+Kiosk+%C2%B7+ERP+%C2%B7+Receipt+printing;From+Figma+designs+to+production-ready+UIs)](https://github.com/SobanAhmed96)
 
-[![Email](https://img.shields.io/badge/EMAIL-sobanahmed9898%40gmail.com-FF7A1A?style=for-the-badge&logo=gmail&logoColor=0B0C0F&labelColor=0B0C0F)](mailto:sobanahmed9898@gmail.com) [![LinkedIn](https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/soban-ahmed-b50b30316/) [![GitHub](https://img.shields.io/badge/GITHUB-SobanAhmed96-FF7A1A?style=for-the-badge&logo=github&logoColor=0B0C0F&labelColor=0B0C0F)](https://github.com/SobanAhmed96)
+[![Email](https://img.shields.io/badge/EMAIL-sobanahmed9898%40gmail.com-FF7A1A?style=for-the-badge&logo=gmail&logoColor=0B0C0F&labelColor=0B0C0F)](mailto:sobanahmed9898@gmail.com) [![LinkedIn](https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/soban-ahmed-b50b30316/) [![GitHub](https://img.shields.io/badge/GITHUB-SobanAhmed96-FF7A1A?style=for-the-badge&logo=github&logoColor=0B0C0F&labelColor=0B0C0F)](https://github.com/SobanAhmed96) [![Portfolio](https://img.shields.io/badge/PORTFOLIO-LIVE-FF7A1A?style=for-the-badge&logo=vercel&logoColor=0B0C0F&labelColor=0B0C0F)](https://potfolio-two-weld.vercel.app/)
 
 [![Open to](https://img.shields.io/badge/OPEN_TO-OPPORTUNITIES-FF7A1A?style=flat-square&logo=rocket&logoColor=0B0C0F&labelColor=0B0C0F)](mailto:sobanahmed9898@gmail.com) [![Location](https://img.shields.io/badge/BASED_IN-KARACHI,_PAKISTAN-FF7A1A?style=flat-square&logo=googlemaps&logoColor=0B0C0F&labelColor=0B0C0F)](#contact) [![Work](https://img.shields.io/badge/WORKING_AT-AIRTECH_SOLUTIONS-FF7A1A?style=flat-square&logo=briefcase&logoColor=0B0C0F&labelColor=0B0C0F)](#experience) [![Followers](https://img.shields.io/github/followers/SobanAhmed96?style=flat-square&label=followers&color=FF7A1A&labelColor=0B0C0F)](https://github.com/SobanAhmed96?tab=followers) [![Profile views](https://komarev.com/ghpvc/?username=SobanAhmed96&label=profile%20views&style=flat-square&color=FF7A1A&labelColor=0B0C0F)](https://github.com/SobanAhmed96)
 
-**[About](#about) · [How I Build](#how-i-build) · [Projects](#projects) · [Experience](#experience) · [Services](#services) · [Stack](#stack) · [Activity](#activity) · [Contact](#contact)**
+**[About](#about) · [Skills](#skills) · [How I Build](#how-i-build) · [Projects](#projects) · [Experience](#experience) · [Services](#services) · [Stack](#stack) · [Activity](#activity) · [Contact](#contact)**
+
+![divider](./assets/divider.svg)
 
 </div>
 
@@ -21,9 +23,17 @@ I build web products across the whole stack: **React and Angular frontends**, **
 
 [![Frontend, Backend, Business Systems and Mobile & AI capabilities](./assets/about.svg)](./assets/about.svg)
 
+[![Terminal: whoami, stack and recent commits](./assets/terminal.svg)](./assets/terminal.svg)
+
 | 🔭 Working on | 🌱 Improving | 🎓 Next goal |
 |---|---|---|
 | FoodlyOS, a full MERN food delivery product | Full-stack skills, clean architecture & reusable components | University studies in Computer Science |
+
+<a name="skills"></a>
+
+[![Skills](./assets/section-skills.svg)](./assets/section-skills.svg)
+
+[![Animated skill bars](./assets/skills.svg)](./assets/skills.svg)
 
 <a name="how-i-build"></a>
 
@@ -59,6 +69,12 @@ One workflow, six stages. Every project goes through the same path.
 | **📋 Digital Menu** | Digital menu application with a clean interface and responsive layout across all screen sizes | `React.js` `Responsive Design` |
 | **💼 Airtech Solutions** | Real business projects: ERP admin panels & dashboards, Angular POS system (billing & orders), KDS, Kiosk & Self-Checkout screens, printer integration for receipts & invoices | `React` `Angular` `Flutter` |
 
+<div align="center">
+
+[![ChatGPT-Auto-Prompt](https://github-readme-stats.vercel.app/api/pin/?username=SobanAhmed96&repo=ChatGPT-Auto-Prompt&bg_color=0B0C0F&title_color=FF7A1A&text_color=E8E8EA&icon_color=FF7A1A&border_color=23262D)](https://github.com/SobanAhmed96/ChatGPT-Auto-Prompt)
+
+</div>
+
 <a name="experience"></a>
 
 [![Experience](./assets/section-experience.svg)](./assets/section-experience.svg)
@@ -66,6 +82,10 @@ One workflow, six stages. Every project goes through the same path.
 #### 🏢 Frontend Developer — Airtech Solutions
 
 `Dec 2025 – Present` · Karachi, Pakistan
+
+<details open>
+<summary><b>What I do day to day</b> (click to collapse)</summary>
+<br>
 
 - React.js apps from scratch: planning → components → implementation
 - Figma/UI designs → responsive interfaces for desktop, tablet and mobile
@@ -78,18 +98,17 @@ One workflow, six stages. Every project goes through the same path.
 - Flutter features, bug fixes & Android device/emulator testing
 - Git/GitHub collaboration with backend developers, designers & QA
 
-#### 🛣️ Journey
+</details>
 
-| When | Milestone |
-|---|---|
-| **2023 – 2024** | Web and Mobile Frontend Development course |
-| **2025** | Flutter Development course |
-| **Dec 2025** | Joined Airtech Solutions as Frontend Developer |
-| **Now** | Building FoodlyOS and growing as a MERN developer |
+[![Journey](./assets/section-journey.svg)](./assets/section-journey.svg)
+
+[![Journey: 2023-2024 frontend course, 2025 Flutter course, Dec 2025 joined Airtech Solutions, now building FoodlyOS](./assets/journey.svg)](./assets/journey.svg)
 
 <a name="services"></a>
 
 [![What I Build](./assets/section-services.svg)](./assets/section-services.svg)
+
+[![Animated demo: kitchen display order flow and receipt printing](./assets/pos-demo.svg)](./assets/pos-demo.svg)
 
 | 🌐 Web Apps | 📊 Admin Panels | 🧾 POS / KDS / Kiosk | ⚙️ MERN Products |
 |---|---|---|---|
@@ -105,7 +124,7 @@ One workflow, six stages. Every project goes through the same path.
 
 [![Tech Stack](./assets/section-stack.svg)](./assets/section-stack.svg)
 
-[![Technology stack: frontend, backend, database, mobile, business systems, tools and AI tools](./assets/stack.svg)](./assets/stack.svg)
+[![Technology stack: frontend, backend, database, mobile, business systems and AI tools](./assets/stack.svg)](./assets/stack.svg)
 
 <a name="activity"></a>
 
@@ -131,7 +150,7 @@ One workflow, six stages. Every project goes through the same path.
 
 <div align="center">
 
-[![Email](https://img.shields.io/badge/EMAIL-sobanahmed9898%40gmail.com-FF7A1A?style=for-the-badge&logo=gmail&logoColor=0B0C0F&labelColor=0B0C0F)](mailto:sobanahmed9898@gmail.com) [![LinkedIn](https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/soban-ahmed-b50b30316/) [![GitHub](https://img.shields.io/badge/GITHUB-SobanAhmed96-FF7A1A?style=for-the-badge&logo=github&logoColor=0B0C0F&labelColor=0B0C0F)](https://github.com/SobanAhmed96)
+[![Email](https://img.shields.io/badge/EMAIL-sobanahmed9898%40gmail.com-FF7A1A?style=for-the-badge&logo=gmail&logoColor=0B0C0F&labelColor=0B0C0F)](mailto:sobanahmed9898@gmail.com) [![LinkedIn](https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/soban-ahmed-b50b30316/) [![GitHub](https://img.shields.io/badge/GITHUB-SobanAhmed96-FF7A1A?style=for-the-badge&logo=github&logoColor=0B0C0F&labelColor=0B0C0F)](https://github.com/SobanAhmed96) [![Portfolio](https://img.shields.io/badge/PORTFOLIO-LIVE-FF7A1A?style=for-the-badge&logo=vercel&logoColor=0B0C0F&labelColor=0B0C0F)](https://potfolio-two-weld.vercel.app/)
 
 [![footer](./assets/footer.svg)](./assets/footer.svg)
 
